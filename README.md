@@ -1,2 +1,2 @@
 # japanhazardmap.github.io
-How to make hazard map with GIS data.
+How to create a hazard map using Python and GIS data.
