@@ -1,0 +1,22 @@
+﻿{
+  "name": "viewer-server",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@duckdb/node-api": "1.5.6-r.2",
+    "@ngageoint/geopackage": "^4.2.10",
+    "express": "^5.3.0",
+    "maplibre-gl": "^6.15.0",
+    "pmtiles": "^4.5.0"
+  },
+  "scripts": {
+    "start": "node bin/server.js",
+    "build:catalog": "node bin/services/CatalogService.js --static"
+  },
+  "devDependencies": {
+    "mocha": "^12.0.3"
+  },
+  "imports": {
+    "#jst": "./bin/getJST.js"
+  }
+}

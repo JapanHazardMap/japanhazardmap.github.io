@@ -1,0 +1,53 @@
+<!--E:/MyProjects/gitManaged/TopoProject/Workspace/your_open_repos/public/index.html-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Japan Hazard Map Viewer</title>
+
+<style>
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+#layout{
+    display:flex;
+    height:100vh;
+}
+
+#sidebar{
+    width:320px;
+    overflow:auto;
+    border-right:1px solid #ccc;
+    padding:10px;
+}
+
+#map{
+    flex:1;
+    background:#f5f5f5;
+}
+</style>
+
+</head>
+<body>
+
+<div id="layout">
+
+    <div id="sidebar">
+
+        <h3>Layers</h3>
+
+        <div id="layerTree"></div>
+
+    </div>
+
+    <div id="map"></div>
+
+</div>
+
+<script type="module" src="./viewer/app.js"></script>
+
+</body>
+</html>

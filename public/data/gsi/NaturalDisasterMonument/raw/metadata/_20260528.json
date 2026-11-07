@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "sha512": "e057b4f60530bbd83e3cddbbdddb331184c2bc3fa354965f2008ecb3ea7e3bb3a07bc59b02ba4eb21c7ece3c43e7168364dd18b80de9034ef0def2e2211fb395",
+    "jsSafeName": "_20260528.csv",
+    "originalGisFileName": "20260528.csv"
+  },
+  "originalGisFileName": "20260528.csv",
+  "zip": {
+    "zipName": "000250768.zip",
+    "zipBaseName": "000250768",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_19:14:34",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\gsi\\originalZips\\000250768.zip",
+      "baseName": "000250768",
+      "jsSafeName": "_000250768",
+      "crc32": 631897217,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 3,
+        "largestEntry": {
+          "name": "20260528.csv",
+          "mb": 1.2430229187011719,
+          "sizeBytes": 1303404
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "SHIFT_JIS",
+            "UTF-8"
+          ]
+        },
+        "zipHash_full": "7bdc1b10a07ced2ef06eb8d0da37f2d904677806bf065002cbc06e62adaee98334086f578711c6f16e099f578126ee20751a10d52675d4913cfd45dda5d85260"
+      }
+    }
+  },
+  "source": {
+    "fileName": "_20260528.csv",
+    "sha512": "e057b4f60530bbd83e3cddbbdddb331184c2bc3fa354965f2008ecb3ea7e3bb3a07bc59b02ba4eb21c7ece3c43e7168364dd18b80de9034ef0def2e2211fb395",
+    "normalizedPath": "20260528CSV/20260528.csv",
+    "parseResults": null
+  },
+  "generatedAt": "2026-11-07_19:14:35",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_19:14:35",
+    "file": "csv\\_20260528.csv",
+    "sha512": "e057b4f60530bbd83e3cddbbdddb331184c2bc3fa354965f2008ecb3ea7e3bb3a07bc59b02ba4eb21c7ece3c43e7168364dd18b80de9034ef0def2e2211fb395",
+    "ext": ".csv",
+    "sizeBytes": 1303404,
+    "over100Mb": false,
+    "crc32": 2497828269,
+    "sha256": "d2f280fc1ba16f9e897ddf2d88a1bcce18950ce9920e25d6164be3055271c7a5",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": null,
+  "products": []
+}

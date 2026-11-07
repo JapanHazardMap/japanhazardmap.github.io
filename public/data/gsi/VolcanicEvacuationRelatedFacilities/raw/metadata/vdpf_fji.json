@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "sha512": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+    "jsSafeName": "vdpf_fji.geojson",
+    "originalGisFileName": "vdpf_fji.geojson"
+  },
+  "originalGisFileName": "vdpf_fji.geojson",
+  "zip": {
+    "zipName": "vdpf_fji.zip",
+    "zipBaseName": "vdpf_fji",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_19:19:57",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\gsi\\originalZips\\vdpf_fji.zip",
+      "baseName": "vdpf_fji",
+      "jsSafeName": "vdpf_fji",
+      "crc32": 3787022303,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 3,
+        "largestEntry": {
+          "name": "vdpf_fji.geojson",
+          "mb": 0.2281970977783203,
+          "sizeBytes": 239282
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "UTF-8",
+            "SHIFT_JIS"
+          ]
+        },
+        "zipHash_full": "750196e1e18df3462af48df390a9cbcd6bc1ce0c490b68bb72f022a5441c230ca8590b16f11d2bb2a83973c7019e744ae85c6c5a870d654c07b2b95ef89a567e"
+      }
+    }
+  },
+  "source": {
+    "fileName": "vdpf_fji.geojson",
+    "sha512": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+    "normalizedPath": "vdpf_fji.geojson",
+    "parseResults": null
+  },
+  "generatedAt": "2026-11-07_19:23:59",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_19:23:59",
+    "file": "geojson\\vdpf_fji.geojson",
+    "sha512": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+    "ext": ".geojson",
+    "sizeBytes": 239282,
+    "over100Mb": false,
+    "crc32": 4138447297,
+    "sha256": "e90f6a5adb7542c2b9e4286e2e545903c56d4fd039facbb18d0e292c9cd5f1cf",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": {
+    "base": "vdpf_fji",
+    "sourceSha512": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+    "generatedAtJST": "2026-11-07_19:24:26",
+    "resultFilename": "vdpf_fji_validation.json",
+    "filenameChecks": {
+      "original": "vdpf_fji.geojson",
+      "safe": "vdpf_fji",
+      "mojibakeDetected": true,
+      "mojibakeReason": "Filename contained mojibake; repaired via mojibakeAvoider"
+    },
+    "products": {
+      "full": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\geojson\\vdpf_fji.geojson",
+        "topojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\topojson\\vdpf_fji.topojson",
+        "pmtiles": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\pmtiles\\vdpf_fji.pmtiles",
+        "gpkg": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\gpkg\\vdpf_fji.gpkg",
+        "parquet": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\parquet\\vdpf_fji.parquet"
+      },
+      "attrSlimmed": {
+        "geojson": null,
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      },
+      "geoSlimmed": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\geojson\\vdpf_fji.geojson",
+        "topojson": {
+          "slim": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\topojson\\vdpf_fji.topojson"
+        },
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      }
+    },
+    "counts": {
+      "generatedFiles": 7,
+      "validatedFiles": 7,
+      "skippedFiles": []
+    },
+    "geojson": {
+      "format": "geojson",
+      "base": "vdpf_fji",
+      "full": {
+        "sizeMB": "0.23",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/artifacts/gsi/temporary/intermediate/valSrcDat/vdpf_fji.geojson"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": {
+        "sizeMB": "0.21",
+        "diffPercent": "9.7",
+        "quality": "WARN"
+      }
+    },
+    "topojson": {
+      "format": "topojson",
+      "base": "vdpf_fji",
+      "fullPoints": 0,
+      "slimPoints": 0,
+      "diffPercent": 0,
+      "quality": "OK"
+    },
+    "pmtiles": {
+      "format": "pmtiles",
+      "base": "vdpf_fji",
+      "full": {
+        "sizeMB": "0.32",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/dist/wip/gsi/converted/full/pmtiles/vdpf_fji.pmtiles"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": null
+    },
+    "gpkg": {
+      "format": "gpkg",
+      "base": "vdpf_fji",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "parquet": {
+      "format": "parquet",
+      "base": "vdpf_fji",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "warnings": [
+      {
+        "base": "vdpf_fji",
+        "message": "GeoSlimmed GeoJSON 削減率が閾値未満 (9.7%)"
+      }
+    ],
+    "zipInfoEntry": {
+      "originalGisFileName": "vdpf_fji.geojson",
+      "sha512": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+      "sha512_full": "f1db5032fb138e09275574edcd6b4c7f548bf97ab09026d3d5838e71cfae1e7d7352fd55f83fa90810f02c4c41d5ee3bd36e8513568eabf09bd2490a3998f57d",
+      "entrySizeBytes": 239282,
+      "mb": 0.2281970977783203,
+      "over100": false,
+      "files": [
+        {
+          "normalizedPath": "vdpf_fji.geojson",
+          "fileName": "vdpf_fji.geojson",
+          "baseName": "vdpf_fji",
+          "ext": ".geojson",
+          "jsSafeBaseName": "vdpf_fji",
+          "jsSafeName": "vdpf_fji_geojson",
+          "sha512_slice": "32c35bb9ebc93becf29880ded6d854b39aacd356c6c53db475803c3bd088c7a9c7703881abdfb567d7090a6c5c58ea40955d2cd0db46ce5194127a5addb98a6d",
+          "encoding": "UTF-8"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "fileName": "vdpf_fji.gpkg",
+      "generatedAt": "2026-11-07T10:24:03.846Z",
+      "sha512": "3fb1694d843d04ba0850e8f3a651020b7798fa89091647d8a983053dd1605ca0da44e7d52ca34279eeea80bd5d4400e11b4beacfb5157577290eb6614d45b723",
+      "fileSize": 233472
+    },
+    {
+      "fileName": "vdpf_fji.parquet",
+      "generatedAt": "2026-11-07T10:24:06.891Z",
+      "sha512": "8c4c3c16717e0cc49920e54dcf40586fcab8f901bafb098e4943d3343b755429670610fb1c82b2eea2ea0a629757bf99bcbe9710a01182a6a84d9911e81d52f5",
+      "fileSize": 52857
+    },
+    {
+      "fileName": "vdpf_fji.pmtiles",
+      "generatedAt": "2026-11-07T10:24:18.737Z",
+      "sha512": "d5ff629ed8a7661cacfb6bf320273265f088f85416cd6a0698d89cdd2e771b44dbdee6f65443bf08caa388a9abde5e68ae2a1c84a93a113b3642b8cfe8e405c9",
+      "fileSize": 338945
+    },
+    {
+      "fileName": "vdpf_fji.topojson",
+      "generatedAt": "2026-11-07T10:24:22.284Z",
+      "sha512": "975d65096792d6e76caa9ce0bb18fdce3ced61fa161ddf70d60b9d694452f85051acc2d6578029ba55faeb732dc9556de0da4cd491fc3a2ede64bb42009bd0d1",
+      "fileSize": 194271
+    },
+    {
+      "fileName": "vdpf_fji.topojson",
+      "generatedAt": "2026-11-07T10:24:25.626Z",
+      "sha512": "975d65096792d6e76caa9ce0bb18fdce3ced61fa161ddf70d60b9d694452f85051acc2d6578029ba55faeb732dc9556de0da4cd491fc3a2ede64bb42009bd0d1",
+      "fileSize": 194271
+    },
+    {
+      "fileName": "vdpf_fji.gpkg.7z",
+      "generatedAt": "2026-11-07T10:24:26.473Z",
+      "sha512": "72cee02ff71a12184feec00b9042de8f0e82d7d191878eebe71a2608ae84fe9f67311363479a34dec1eff9345595c8e612b6874c9832231188b871ca6b525bf8",
+      "fileSize": 43904
+    },
+    {
+      "fileName": "vdpf_fji.parquet.7z",
+      "generatedAt": "2026-11-07T10:24:26.875Z",
+      "sha512": "bc923d4366c0a22df31a2ae9c84b9c96cc10223b49f4b115fbcbcb47be292195b3a429fc834f5c2155155ac35989247a0840de1804a5aede9a5d0110be610b8c",
+      "fileSize": 30579
+    },
+    {
+      "fileName": "vdpf_fji.topojson.7z",
+      "generatedAt": "2026-11-07T10:24:27.073Z",
+      "sha512": "5bd46abae0d369e4976bc5e1f421f1b9fef5e6678cd06cf85829ae9ef66e0c728f118bd4b0358a7562aa2dca232e8b2dc40f67841e5f5edef63ab57b22645821",
+      "fileSize": 20867
+    },
+    {
+      "fileName": "vdpf_fji.topojson.7z",
+      "generatedAt": "2026-11-07T10:24:27.272Z",
+      "sha512": "48553ad16730e8880b65b51606ccc40d77ec1391ad413619f9094f37365f5eae36b5e5ecd320a3b2846077611ac380ddd49abe102fdfa5ce793c4c10fbaadc1a",
+      "fileSize": 20867
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "sha512": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+    "jsSafeName": "vdpf_sio.geojson",
+    "originalGisFileName": "vdpf_sio.geojson"
+  },
+  "originalGisFileName": "vdpf_sio.geojson",
+  "zip": {
+    "zipName": "vdpf_sio.zip",
+    "zipBaseName": "vdpf_sio",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_19:19:57",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\gsi\\originalZips\\vdpf_sio.zip",
+      "baseName": "vdpf_sio",
+      "jsSafeName": "vdpf_sio",
+      "crc32": 4116188277,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 3,
+        "largestEntry": {
+          "name": "ご利用上の注意.txt",
+          "mb": 0.0012311935424804688,
+          "sizeBytes": 1291
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "UTF-8",
+            "SHIFT_JIS"
+          ]
+        },
+        "zipHash_full": "de23f1adca2f6cffde519121ad20d461fdd0b564b944cf2443efe2031796d2fcc44b042c1ac41ce0a1e2277b12692f5ebe3c4c8fb2ec1cbac18d42addd9e274a"
+      }
+    }
+  },
+  "source": {
+    "fileName": "vdpf_sio.geojson",
+    "sha512": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+    "normalizedPath": "vdpf_sio.geojson",
+    "parseResults": null
+  },
+  "generatedAt": "2026-11-07_19:34:16",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_19:34:16",
+    "file": "geojson\\vdpf_sio.geojson",
+    "sha512": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+    "ext": ".geojson",
+    "sizeBytes": 1078,
+    "over100Mb": false,
+    "crc32": 2331292343,
+    "sha256": "24affc46026d15a2f8d90e739c6a261d7163dd0cf8794963b06660408e83ec5b",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": {
+    "base": "vdpf_sio",
+    "sourceSha512": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+    "generatedAtJST": "2026-11-07_19:34:35",
+    "resultFilename": "vdpf_sio_validation.json",
+    "filenameChecks": {
+      "original": "vdpf_sio.geojson",
+      "safe": "vdpf_sio",
+      "mojibakeDetected": true,
+      "mojibakeReason": "Filename contained mojibake; repaired via mojibakeAvoider"
+    },
+    "products": {
+      "full": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\geojson\\vdpf_sio.geojson",
+        "topojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\topojson\\vdpf_sio.topojson",
+        "pmtiles": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\pmtiles\\vdpf_sio.pmtiles",
+        "gpkg": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\gpkg\\vdpf_sio.gpkg",
+        "parquet": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\parquet\\vdpf_sio.parquet"
+      },
+      "attrSlimmed": {
+        "geojson": null,
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      },
+      "geoSlimmed": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\geojson\\vdpf_sio.geojson",
+        "topojson": {
+          "slim": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\topojson\\vdpf_sio.topojson"
+        },
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      }
+    },
+    "counts": {
+      "generatedFiles": 7,
+      "validatedFiles": 7,
+      "skippedFiles": []
+    },
+    "geojson": {
+      "format": "geojson",
+      "base": "vdpf_sio",
+      "full": {
+        "sizeMB": "0.00",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/artifacts/gsi/temporary/intermediate/valSrcDat/vdpf_sio.geojson"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": {
+        "sizeMB": "0.00",
+        "diffPercent": "19.7",
+        "quality": "OK"
+      }
+    },
+    "topojson": {
+      "format": "topojson",
+      "base": "vdpf_sio",
+      "fullPoints": 0,
+      "slimPoints": 0,
+      "diffPercent": 0,
+      "quality": "OK"
+    },
+    "pmtiles": {
+      "format": "pmtiles",
+      "base": "vdpf_sio",
+      "full": {
+        "sizeMB": "0.01",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/dist/wip/gsi/converted/full/pmtiles/vdpf_sio.pmtiles"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": null
+    },
+    "gpkg": {
+      "format": "gpkg",
+      "base": "vdpf_sio",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "parquet": {
+      "format": "parquet",
+      "base": "vdpf_sio",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "warnings": [],
+    "zipInfoEntry": {
+      "originalGisFileName": "vdpf_sio.geojson",
+      "sha512": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+      "sha512_full": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+      "entrySizeBytes": 1078,
+      "mb": 0.0010280609130859375,
+      "over100": false,
+      "files": [
+        {
+          "normalizedPath": "vdpf_sio.geojson",
+          "fileName": "vdpf_sio.geojson",
+          "baseName": "vdpf_sio",
+          "ext": ".geojson",
+          "jsSafeBaseName": "vdpf_sio",
+          "jsSafeName": "vdpf_sio_geojson",
+          "sha512_slice": "7b0d38389c6a7bdb5ec40b76c8e2036d0f5047daca486d7f8d061b9c7104b0b51565a8e46e6be66e1aa06aeb31c662d41b5fcd4e179dfa1ef8a4afa1f30c3777",
+          "encoding": "UTF-8"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "fileName": "vdpf_sio.gpkg",
+      "generatedAt": "2026-11-07T10:34:20.246Z",
+      "sha512": "710ed073309bc97b727bf8a0e8a89e9f91e8d3a2af660e89ae48286d6510bc55fbf50bbd1b6c6a43c069022cea99d7e76cbde8341a09948564ec01205ab90c55",
+      "fileSize": 98304
+    },
+    {
+      "fileName": "vdpf_sio.parquet",
+      "generatedAt": "2026-11-07T10:34:23.203Z",
+      "sha512": "221d3421976cc66735da96211e23a97f082f1b1cf2847bf8b45a26debcf6757aa0bcbe0623fc160bf1224e54b78511d0be5afa7a87a84da7b4a4f975a872dc8b",
+      "fileSize": 12187
+    },
+    {
+      "fileName": "vdpf_sio.pmtiles",
+      "generatedAt": "2026-11-07T10:34:27.466Z",
+      "sha512": "82e7bf84177b43df55b3c30456289b667a8f571928bd16b4d3f56a15ea81646f1b804d8a5ed08b663d024e9985495f79cf76bae119795cc689068038e6a1dd8f",
+      "fileSize": 5257
+    },
+    {
+      "fileName": "vdpf_sio.topojson",
+      "generatedAt": "2026-11-07T10:34:30.998Z",
+      "sha512": "14294955f7048b2a40e10e13e9fae804a46ddf6fb6f95f0118cbe14822383d665ed3b732b127462a7d372fbafe61e3e54215abbc34fe6c1bfce217256dcb3468",
+      "fileSize": 832
+    },
+    {
+      "fileName": "vdpf_sio.topojson",
+      "generatedAt": "2026-11-07T10:34:34.669Z",
+      "sha512": "14294955f7048b2a40e10e13e9fae804a46ddf6fb6f95f0118cbe14822383d665ed3b732b127462a7d372fbafe61e3e54215abbc34fe6c1bfce217256dcb3468",
+      "fileSize": 832
+    },
+    {
+      "fileName": "vdpf_sio.gpkg.7z",
+      "generatedAt": "2026-11-07T10:34:35.333Z",
+      "sha512": "8cebfd46bdbc4262e1740b72f5a23fb79e4355224b6cd385b5e3b6d34ae751728faecf9c1f7476575382e87c0a1617c7760b4e4cdcd651f6926a49024cd7c987",
+      "fileSize": 3351
+    },
+    {
+      "fileName": "vdpf_sio.parquet.7z",
+      "generatedAt": "2026-11-07T10:34:35.548Z",
+      "sha512": "2e9e445a9ecbaad670f974d2c049fc219776361ee0527741543f0f50915e2220d21bd85d5e86a360c3be9233937d6bc9eae2f87b09cf30c7cdf4313ccfa8d8c0",
+      "fileSize": 4256
+    },
+    {
+      "fileName": "vdpf_sio.topojson.7z",
+      "generatedAt": "2026-11-07T10:34:35.718Z",
+      "sha512": "ce17d76268486c2ad8db9103bc411eaa03268da99e07e61066f280655efcdd2aa441714e5947d14faf8e4580da11136c76e948171e9d6587b0b941a9c1ffece2",
+      "fileSize": 488
+    },
+    {
+      "fileName": "vdpf_sio.topojson.7z",
+      "generatedAt": "2026-11-07T10:34:35.898Z",
+      "sha512": "01c9192190332c9fd0d220732096ed550f2548bd0b90c080d6c716106c45a80e1ba32ceae2e1a77bf4aa30c55f3e8d4dbb77ef60d53e720fda45f25e1442afec",
+      "fileSize": 488
+    }
+  ]
+}

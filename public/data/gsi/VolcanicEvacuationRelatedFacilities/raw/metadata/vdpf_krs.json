@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "sha512": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+    "jsSafeName": "vdpf_krs.geojson",
+    "originalGisFileName": "vdpf_krs.geojson"
+  },
+  "originalGisFileName": "vdpf_krs.geojson",
+  "zip": {
+    "zipName": "vdpf_krs.zip",
+    "zipBaseName": "vdpf_krs",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_19:19:57",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\gsi\\originalZips\\vdpf_krs.zip",
+      "baseName": "vdpf_krs",
+      "jsSafeName": "vdpf_krs",
+      "crc32": 2422009055,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 3,
+        "largestEntry": {
+          "name": "vdpf_krs.geojson",
+          "mb": 0.038471221923828125,
+          "sizeBytes": 40340
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "UTF-8",
+            "SHIFT_JIS"
+          ]
+        },
+        "zipHash_full": "c25ffddc978af4d1ab09434105b934ad4384351ecb6a63f112b6df30d283560f9567b76c80deee88ee322d1aabb77a193729315c226ad3881da803185b649b4c"
+      }
+    }
+  },
+  "source": {
+    "fileName": "vdpf_krs.geojson",
+    "sha512": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+    "normalizedPath": "vdpf_krs.geojson",
+    "parseResults": null
+  },
+  "generatedAt": "2026-11-07_19:28:47",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_19:28:47",
+    "file": "geojson\\vdpf_krs.geojson",
+    "sha512": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+    "ext": ".geojson",
+    "sizeBytes": 40340,
+    "over100Mb": false,
+    "crc32": 3849977209,
+    "sha256": "eeaa59b3876e85075f879614e325cb1a2afb25410bb17542292c9b9a260ab33b",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": {
+    "base": "vdpf_krs",
+    "sourceSha512": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+    "generatedAtJST": "2026-11-07_19:29:08",
+    "resultFilename": "vdpf_krs_validation.json",
+    "filenameChecks": {
+      "original": "vdpf_krs.geojson",
+      "safe": "vdpf_krs",
+      "mojibakeDetected": true,
+      "mojibakeReason": "Filename contained mojibake; repaired via mojibakeAvoider"
+    },
+    "products": {
+      "full": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\geojson\\vdpf_krs.geojson",
+        "topojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\topojson\\vdpf_krs.topojson",
+        "pmtiles": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\pmtiles\\vdpf_krs.pmtiles",
+        "gpkg": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\gpkg\\vdpf_krs.gpkg",
+        "parquet": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\parquet\\vdpf_krs.parquet"
+      },
+      "attrSlimmed": {
+        "geojson": null,
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      },
+      "geoSlimmed": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\geojson\\vdpf_krs.geojson",
+        "topojson": {
+          "slim": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\topojson\\vdpf_krs.topojson"
+        },
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      }
+    },
+    "counts": {
+      "generatedFiles": 7,
+      "validatedFiles": 7,
+      "skippedFiles": []
+    },
+    "geojson": {
+      "format": "geojson",
+      "base": "vdpf_krs",
+      "full": {
+        "sizeMB": "0.04",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/artifacts/gsi/temporary/intermediate/valSrcDat/vdpf_krs.geojson"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": {
+        "sizeMB": "0.03",
+        "diffPercent": "11.0",
+        "quality": "OK"
+      }
+    },
+    "topojson": {
+      "format": "topojson",
+      "base": "vdpf_krs",
+      "fullPoints": 0,
+      "slimPoints": 0,
+      "diffPercent": 0,
+      "quality": "OK"
+    },
+    "pmtiles": {
+      "format": "pmtiles",
+      "base": "vdpf_krs",
+      "full": {
+        "sizeMB": "0.06",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/dist/wip/gsi/converted/full/pmtiles/vdpf_krs.pmtiles"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": null
+    },
+    "gpkg": {
+      "format": "gpkg",
+      "base": "vdpf_krs",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "parquet": {
+      "format": "parquet",
+      "base": "vdpf_krs",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "warnings": [],
+    "zipInfoEntry": {
+      "originalGisFileName": "vdpf_krs.geojson",
+      "sha512": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+      "sha512_full": "a1352a2382beea0bb0c5fc12296aa4642a9b3cc2eafeccd46be45774f5385bfc6aea6d06e103659fd9c45401ef1811e4f01d2bca5e8eaeda01461d026ce130c8",
+      "entrySizeBytes": 40340,
+      "mb": 0.038471221923828125,
+      "over100": false,
+      "files": [
+        {
+          "normalizedPath": "vdpf_krs.geojson",
+          "fileName": "vdpf_krs.geojson",
+          "baseName": "vdpf_krs",
+          "ext": ".geojson",
+          "jsSafeBaseName": "vdpf_krs",
+          "jsSafeName": "vdpf_krs_geojson",
+          "sha512_slice": "bf0dd5c5a84a1a6ac224c7fb864be6854fda545d2bf3ce967e172ea93617d9a2880799b25e90cf1dd235565ae7d85dddf68bb2d83f92703c7064f1f404cd003d",
+          "encoding": "UTF-8"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "fileName": "vdpf_krs.gpkg",
+      "generatedAt": "2026-11-07T10:28:51.692Z",
+      "sha512": "d2b578b8e808c6a7ecc3f69095dc042ce189eac318acf0792bd061203a0139ad276ea7d066ae3bc41be1d52915d65ca3feacecc90bc4dc3829349f8bb2505808",
+      "fileSize": 122880
+    },
+    {
+      "fileName": "vdpf_krs.parquet",
+      "generatedAt": "2026-11-07T10:28:54.627Z",
+      "sha512": "f8894f10e53e20282aa83074cba3c706c63b64f50bb5015d379d4ca33990b0922520929b8a689cd5a7201eb89ccf25ced9b0ca44ff520da06e2b7c528d8d9a36",
+      "fileSize": 19498
+    },
+    {
+      "fileName": "vdpf_krs.pmtiles",
+      "generatedAt": "2026-11-07T10:29:00.840Z",
+      "sha512": "75cf0631fb0b7816bcc8334a90248d70ead7e20286ea8119aeeb2f453891e5319622a5090120c792444eeaa09f938ee0affc5cbd270bd8f86e5d1314f766a2db",
+      "fileSize": 66765
+    },
+    {
+      "fileName": "vdpf_krs.topojson",
+      "generatedAt": "2026-11-07T10:29:04.262Z",
+      "sha512": "e444b93b8e3a443f47c93a8fdd520bc2592703e1e10b63201e72986ebb63ca94e76fa20c947fb4f40633669190152786df23f2300b6a83e83629878f7975e35b",
+      "fileSize": 32026
+    },
+    {
+      "fileName": "vdpf_krs.topojson",
+      "generatedAt": "2026-11-07T10:29:07.619Z",
+      "sha512": "e444b93b8e3a443f47c93a8fdd520bc2592703e1e10b63201e72986ebb63ca94e76fa20c947fb4f40633669190152786df23f2300b6a83e83629878f7975e35b",
+      "fileSize": 32026
+    },
+    {
+      "fileName": "vdpf_krs.gpkg.7z",
+      "generatedAt": "2026-11-07T10:29:08.388Z",
+      "sha512": "7d534f23cbf3502b66293f738b24a88ee86a6162ca514827c6d8591f337d328212b416da386e3f9a04f924e0f50db54162d24505ac365a8754967e09c4e9f204",
+      "fileSize": 10906
+    },
+    {
+      "fileName": "vdpf_krs.parquet.7z",
+      "generatedAt": "2026-11-07T10:29:08.632Z",
+      "sha512": "e2bdae467c392fff5f838add7bf9bf7abe79320f5bd0e397f2c4e164e97d8a0e7ddd6d882f5ffaeb8254dfaf1834d601db9fe813007ccc22ce65ab6b06a38bf7",
+      "fileSize": 8886
+    },
+    {
+      "fileName": "vdpf_krs.topojson.7z",
+      "generatedAt": "2026-11-07T10:29:08.817Z",
+      "sha512": "fc88303f3ca365c2d77acf584473c0f77ada2258b62d99b2eeadececaf7d192d80cbfb92d06abc7f38a100a3353607ab44bada071aa48204253061f48f44a5e3",
+      "fileSize": 4187
+    },
+    {
+      "fileName": "vdpf_krs.topojson.7z",
+      "generatedAt": "2026-11-07T10:29:09.016Z",
+      "sha512": "bac56c63320c7caa090720384dc60a40dd41ebf39e77a737820ecad713906e460fc52a07f24f9a1d5050ec346a1a0986c17b4bcab597f865eb5523a5d3b87132",
+      "fileSize": 4187
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "sha512": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+    "jsSafeName": "_21000_1.geojson",
+    "originalGisFileName": "21000_1.geojson"
+  },
+  "originalGisFileName": "21000_1.geojson",
+  "zip": {
+    "zipName": "21000_1.zip",
+    "zipBaseName": "21000_1",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_16:17:58",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\gsi\\originalZips\\21000_1.zip",
+      "baseName": "21000_1",
+      "jsSafeName": "_21000_1",
+      "crc32": 430026520,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 3,
+        "largestEntry": {
+          "name": "21000_1.geojson",
+          "mb": 1.0330934524536133,
+          "sizeBytes": 1083277
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "SHIFT_JIS",
+            "UTF-8"
+          ]
+        },
+        "zipHash_full": "92f3142380d0888cbb6ea100669a1aa33b6176745fedddbae2bcf08ee9d9258322cb28f9649422d6e7c3a40838ac587e36cd32cc27818e5f2aefff3c44ae1516"
+      }
+    }
+  },
+  "source": {
+    "fileName": "_21000_1.geojson",
+    "sha512": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+    "normalizedPath": "21000_1.geojson",
+    "parseResults": null
+  },
+  "generatedAt": "2026-11-07_16:41:13",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_16:41:13",
+    "file": "geojson\\_21000_1.geojson",
+    "sha512": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+    "ext": ".geojson",
+    "sizeBytes": 1083277,
+    "over100Mb": false,
+    "crc32": 3881527364,
+    "sha256": "235cc9bbe835161614c91cee949bb5925f8bf5e4916f4e444c81cf7e12adf9d8",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": {
+    "base": "_21000_1",
+    "sourceSha512": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+    "generatedAtJST": "2026-11-07_16:41:41",
+    "resultFilename": "_21000_1_validation.json",
+    "filenameChecks": {
+      "original": "_21000_1.geojson",
+      "safe": "_21000_1",
+      "mojibakeDetected": true,
+      "mojibakeReason": "Filename contained mojibake; repaired via mojibakeAvoider"
+    },
+    "products": {
+      "full": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\geojson\\_21000_1.geojson",
+        "topojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\topojson\\_21000_1.topojson",
+        "pmtiles": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\pmtiles\\_21000_1.pmtiles",
+        "gpkg": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\gpkg\\_21000_1.gpkg",
+        "parquet": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\full\\parquet\\_21000_1.parquet"
+      },
+      "attrSlimmed": {
+        "geojson": null,
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      },
+      "geoSlimmed": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\geojson\\_21000_1.geojson",
+        "topojson": {
+          "slim": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\gsi\\converted\\geo_slimmed\\topojson\\_21000_1.topojson"
+        },
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      }
+    },
+    "counts": {
+      "generatedFiles": 7,
+      "validatedFiles": 7,
+      "skippedFiles": []
+    },
+    "geojson": {
+      "format": "geojson",
+      "base": "_21000_1",
+      "full": {
+        "sizeMB": "1.03",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/artifacts/gsi/temporary/intermediate/valSrcDat/_21000_1.geojson"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": {
+        "sizeMB": "0.70",
+        "diffPercent": "32.4",
+        "quality": "OK"
+      }
+    },
+    "topojson": {
+      "format": "topojson",
+      "base": "_21000_1",
+      "fullPoints": 0,
+      "slimPoints": 0,
+      "diffPercent": 0,
+      "quality": "OK"
+    },
+    "pmtiles": {
+      "format": "pmtiles",
+      "base": "_21000_1",
+      "full": {
+        "sizeMB": "0.49",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/dist/wip/gsi/converted/full/pmtiles/_21000_1.pmtiles"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": null
+    },
+    "gpkg": {
+      "format": "gpkg",
+      "base": "_21000_1",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "parquet": {
+      "format": "parquet",
+      "base": "_21000_1",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "warnings": [],
+    "zipInfoEntry": {
+      "originalGisFileName": "21000_1.geojson",
+      "sha512": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+      "sha512_full": "ba08cd4f21923c65171aaa49648f13738b6cd7f0d749a2a66d3129190f67eba5cb80d693c420fccf5de39d3f47b921ffd5e3424e73179c6b7e099c8c14f688e3",
+      "entrySizeBytes": 1083277,
+      "mb": 1.0330934524536133,
+      "over100": false,
+      "files": [
+        {
+          "normalizedPath": "21000_1.geojson",
+          "fileName": "21000_1.geojson",
+          "baseName": "21000_1",
+          "ext": ".geojson",
+          "jsSafeBaseName": "_21000_1",
+          "jsSafeName": "_21000_1_geojson",
+          "sha512_slice": "7a37a171c08d7e9a0d7c1e4fe09ff3b921da743bffd59c9ad7fce52ef635032a1c5ea72d5bfc826d44d5e1a762f0bc3deab35d5fa4c8d05034c441ae9ec92328",
+          "encoding": "UTF-8"
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "fileName": "_21000_1.gpkg",
+      "generatedAt": "2026-11-07T07:41:17.689Z",
+      "sha512": "33d50e07902ed6d684dc994054a64533f24dc0c25ba8e9ff916c56ac37c059e8cfadbcacf7aec0dfa816d59840d19775375b301475d864fc9f17127a473cd974",
+      "fileSize": 458752
+    },
+    {
+      "fileName": "_21000_1.parquet",
+      "generatedAt": "2026-11-07T07:41:20.811Z",
+      "sha512": "e8ffe0442d6d394f28275e65ceb7130a408ab53ab8925777e38108f638ee8023fb938efa4d8e58ae00e5c39ccb8815b70f290bef2ba282981fc7e362ef00b4e3",
+      "fileSize": 123922
+    },
+    {
+      "fileName": "_21000_1.pmtiles",
+      "generatedAt": "2026-11-07T07:41:33.311Z",
+      "sha512": "488b709f75a705c1a29e67e64df480d2d09f3fdf536e6a1b397fffcce3d23e5fc6cfcd849c884a5eea352e52e3ff00e782246c2fb8c70d10def9fe1e1f427e97",
+      "fileSize": 517789
+    },
+    {
+      "fileName": "_21000_1.topojson",
+      "generatedAt": "2026-11-07T07:41:37.035Z",
+      "sha512": "8b9232d1f44ffe5cda7cf1745f505926118f97dc0eb5b8889011579803a7929dd956c50fdce66ce5fdb17ef428185513a622607da4bbe8bb9b491e2013511cbe",
+      "fileSize": 673025
+    },
+    {
+      "fileName": "_21000_1.topojson",
+      "generatedAt": "2026-11-07T07:41:40.722Z",
+      "sha512": "8b9232d1f44ffe5cda7cf1745f505926118f97dc0eb5b8889011579803a7929dd956c50fdce66ce5fdb17ef428185513a622607da4bbe8bb9b491e2013511cbe",
+      "fileSize": 673025
+    },
+    {
+      "fileName": "_21000_1.gpkg.7z",
+      "generatedAt": "2026-11-07T07:41:41.562Z",
+      "sha512": "ce77172c6a73398d1c918d2f0debb01d91d41052c40075d6d682b2c742b1d32587702e1376d335f14f7f3e7199f66e4185dc59eb5d7400b5a31ebd9f061cf6bf",
+      "fileSize": 99019
+    },
+    {
+      "fileName": "_21000_1.parquet.7z",
+      "generatedAt": "2026-11-07T07:41:41.801Z",
+      "sha512": "a7a992a6296bcd8902d491ac0c35b51e21fb39ed23feeb0605b37e6fe902bd7091dcd41dece23397d66555f9e4cb36d1678362c03f3eb9995b65fced875f930a",
+      "fileSize": 87549
+    },
+    {
+      "fileName": "_21000_1.topojson.7z",
+      "generatedAt": "2026-11-07T07:41:42.065Z",
+      "sha512": "a21fd207b5a3e34fbbf0b5921e740ad5636cb69c8f8ae2a999fb5b18a6f19c1cfb0be3d2af6f0b2e97fc69b3f76c37f579cfc21d61417e7a0d7c6886e6384b1d",
+      "fileSize": 56648
+    },
+    {
+      "fileName": "_21000_1.topojson.7z",
+      "generatedAt": "2026-11-07T07:41:42.347Z",
+      "sha512": "3598e92b27e5dcca7b552052bcb93ad62023ade14607a018459abef2db07ec07146aa68044655603ac6191b63ba84491865107a226f1f8ba1c9c31b267b0281f",
+      "fileSize": 56648
+    }
+  ]
+}

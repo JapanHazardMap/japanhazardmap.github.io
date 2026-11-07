@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "sha512": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+    "jsSafeName": "N03_20260101_01_subprefectures.geojson",
+    "originalGisFileName": "N03-20260101_01_subprefectures.geojson"
+  },
+  "originalGisFileName": "N03-20260101_01_subprefectures.geojson",
+  "zip": {
+    "zipName": "N03-20260101_01_GML.zip",
+    "zipBaseName": "N03-20260101_01_GML",
+    "zipInformation": {
+      "generatedAtJST": "2026-11-07_02:29:47",
+      "path": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\src\\ksj\\originalZips\\N03-20260101_01_GML.zip",
+      "baseName": "N03-20260101_01_GML",
+      "jsSafeName": "N03_20260101_01_GML",
+      "crc32": 1546776854,
+      "entryIdentity": "sha512",
+      "entriesSummary": {
+        "totalFiles": 16,
+        "largestEntry": {
+          "name": "N03-20260101_01.geojson",
+          "mb": 49.77791500091553,
+          "sizeBytes": 52195927
+        },
+        "over100MB": false,
+        "over500MB": false,
+        "over1GB": false,
+        "largeEntries": [],
+        "encoding": {
+          "result": "complexed",
+          "type": [
+            "SHIFT_JIS",
+            "ASCII",
+            "UTF-8"
+          ]
+        },
+        "zipHash_full": "36eacf443429b8dd31cca4099fedc274f2df418ba183ff072f0977c97d37df207c5c7de90b059fe3a6dd6226ef63b41a2a84335c6b6bd87be650ccc883d978c4",
+        "zipHash_slice": "a6e87222c596128092d3761d8c6593fbb69bb5e5beb8c938ee134a80b57efa84f105657a40bc0070c0a76e91eebf56c6a72d6fab6d2960a739a92de3a60bead6"
+      },
+      "original": "N03-20260101_01_GML",
+      "identifier": "N03",
+      "year": "20260101",
+      "regionCode": "01",
+      "regionName": "北海道",
+      "suffix": null,
+      "fileType": "GML",
+      "category": "N-series"
+    }
+  },
+  "source": {
+    "fileName": "N03_20260101_01_subprefectures.geojson",
+    "sha512": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+    "normalizedPath": "N03-20260101_01_subprefectures.geojson",
+    "parseResults": {
+      "type": "expanded",
+      "identifier": "N03",
+      "year": "20260101",
+      "regionCode": "01",
+      "isMetadata": false
+    }
+  },
+  "generatedAt": "2026-11-07_02:30:35",
+  "examiner": {
+    "generatedAtJST": "2026-11-07_02:30:35",
+    "file": "geojson\\N03_20260101_01_subprefectures.geojson",
+    "sha512": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+    "ext": ".geojson",
+    "sizeBytes": 40504199,
+    "over100Mb": false,
+    "crc32": 2288820443,
+    "sha256": "c4658e2cc87427653155abe5b6a8605d686870f992484b251c78572ea5e4ad17",
+    "encoding": "UTF-8",
+    "contentErrors": [],
+    "geometricErrors": []
+  },
+  "validator": {
+    "base": "N03_20260101_01_subprefectures",
+    "sourceSha512": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+    "generatedAtJST": "2026-11-07_02:44:12",
+    "resultFilename": "N03_20260101_01_subprefectures_validation.json",
+    "filenameChecks": {
+      "original": "N03_20260101_01_subprefectures.geojson",
+      "safe": "N03_20260101_01_subprefectures",
+      "mojibakeDetected": true,
+      "mojibakeReason": "Filename contained mojibake; repaired via mojibakeAvoider"
+    },
+    "products": {
+      "full": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\full\\geojson\\N03_20260101_01_subprefectures.geojson",
+        "topojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\full\\topojson\\N03_20260101_01_subprefectures.topojson",
+        "pmtiles": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\full\\pmtiles\\N03_20260101_01_subprefectures.pmtiles",
+        "gpkg": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\full\\gpkg\\N03_20260101_01_subprefectures.gpkg",
+        "parquet": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\full\\parquet\\N03_20260101_01_subprefectures.parquet"
+      },
+      "attrSlimmed": {
+        "geojson": null,
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      },
+      "geoSlimmed": {
+        "geojson": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\geo_slimmed\\geojson\\N03_20260101_01_subprefectures.geojson",
+        "topojson": {
+          "slim": "E:\\MyProjects\\gitManaged\\TopoProject\\Workspace\\build\\dist\\wip\\ksj\\converted\\geo_slimmed\\topojson\\N03_20260101_01_subprefectures.topojson"
+        },
+        "pmtiles": null,
+        "gpkg": null,
+        "parquet": null
+      }
+    },
+    "counts": {
+      "generatedFiles": 7,
+      "validatedFiles": 7,
+      "skippedFiles": []
+    },
+    "geojson": {
+      "format": "geojson",
+      "base": "N03_20260101_01_subprefectures",
+      "full": {
+        "sizeMB": "38.63",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/artifacts/ksj/temporary/intermediate/valSrcDat/N03_20260101_01_subprefectures.geojson"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": {
+        "sizeMB": "3.44",
+        "diffPercent": "91.1",
+        "quality": "OK"
+      }
+    },
+    "topojson": {
+      "format": "topojson",
+      "base": "N03_20260101_01_subprefectures",
+      "fullPoints": 0,
+      "slimPoints": 0,
+      "diffPercent": 0,
+      "quality": "OK"
+    },
+    "pmtiles": {
+      "format": "pmtiles",
+      "base": "N03_20260101_01_subprefectures",
+      "full": {
+        "sizeMB": "4.98",
+        "path": "E:/MyProjects/gitManaged/TopoProject/Workspace/build/dist/wip/ksj/converted/full/pmtiles/N03_20260101_01_subprefectures.pmtiles"
+      },
+      "attrSlimmed": null,
+      "geoSlimmed": null
+    },
+    "gpkg": {
+      "format": "gpkg",
+      "base": "N03_20260101_01_subprefectures",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "parquet": {
+      "format": "parquet",
+      "base": "N03_20260101_01_subprefectures",
+      "full": {},
+      "geoSlimmed": null
+    },
+    "warnings": [],
+    "zipInfoEntry": {
+      "originalGisFileName": "N03-20260101_01_subprefectures.geojson",
+      "sha512": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+      "sha512_full": "cf4679dc42cba59753cc9d68ea1389471eb7d6fa9fcbee6097f1bdd3ad9a7ca8bedc6a01310630deb974f32665f69f1896fe175ba43c650c5ad76e1c1a892682",
+      "entrySizeBytes": 40504199,
+      "mb": 38.627814292907715,
+      "over100": false,
+      "files": [
+        {
+          "normalizedPath": "N03-20260101_01_subprefectures.geojson",
+          "fileName": "N03-20260101_01_subprefectures.geojson",
+          "baseName": "N03-20260101_01_subprefectures",
+          "ext": ".geojson",
+          "jsSafeBaseName": "N03_20260101_01_subprefectures",
+          "jsSafeName": "N03_20260101_01_subprefectures_geojson",
+          "sha512_slice": "c04df79e6320737aea3e1ac4684dc3585eb7f44e754e8c5ca29ebe63d7f8ff8ae206158ead601aeb6ca4c063c59453bc329723611176f109105bab7e5e1bee90",
+          "encoding": "UTF-8",
+          "parseResults": {
+            "type": "expanded",
+            "identifier": "N03",
+            "year": "20260101",
+            "regionCode": "01",
+            "isMetadata": false
+          }
+        }
+      ]
+    }
+  },
+  "products": [
+    {
+      "fileName": "N03_20260101_01_subprefectures.gpkg",
+      "generatedAt": "2026-11-06T17:38:31.451Z",
+      "sha512": "6b7d7ac422fd55a8be2a55126e9a11487eb38824ebf2f2a7f00e686c91d00075af2b2e17bae59b064ad6fd8ccebf1b0da2f0c99f3acb9d4bffe68725b3787aef",
+      "fileSize": 15716352
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.parquet",
+      "generatedAt": "2026-11-06T17:38:40.910Z",
+      "sha512": "43992f357926faac6984877762efa8175bf979a89bff78e07413a00b914b659b31e7168dde165015be706e0d5069e0b0456c6df9aeecb7b2266809c4e6f72e29",
+      "fileSize": 12215126
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.pmtiles",
+      "generatedAt": "2026-11-06T17:43:51.572Z",
+      "sha512": "c07de9e70914eaf12a3535690e4a4f404c242a0f5461d37a40460f2f574878d3df4f31c9fc704c12ba27c2c45030ca895118019c53aaa00caf4fcdb05bb24181",
+      "fileSize": 5220174
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.topojson",
+      "generatedAt": "2026-11-06T17:44:06.194Z",
+      "sha512": "1d2cb141ac1904d6ff009e91b002102de9e96682a5cccf70079fdb0351e7cb181c2a3c6c495a8fd051d2235ac2cf93706037e72bf44b1a852c1a2bd1cffda5b9",
+      "fileSize": 8257536
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.topojson",
+      "generatedAt": "2026-11-06T17:44:11.622Z",
+      "sha512": "3ff3d81a8eedfea6de6cb2b89e26452612dfae61e998a04fd87bc454b17f4ac9ec2b49cbebff572b293a5ff40594736401bd3e48a1679221737b0477f633d34f",
+      "fileSize": 1810084
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.gpkg.7z",
+      "generatedAt": "2026-11-06T17:44:23.894Z",
+      "sha512": "22f55af8122b1f0a98c09e4e69f1ad347bdb8cbb37691e3832a906076689e445fa628264131393ff2cc1bceea0417fcad7522443200e2c54c8025d6881c4121f",
+      "fileSize": 7398778
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.parquet.7z",
+      "generatedAt": "2026-11-06T17:44:33.809Z",
+      "sha512": "b61e7df997a7d1ee528c504358666f9c65b3727860183d4d10e42d927a54df4e60c6475c80d6ee5b947d2ae1715b8384a75d300c6c072e68efee7c623ef1fe42",
+      "fileSize": 9170548
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.topojson.7z",
+      "generatedAt": "2026-11-06T17:44:46.094Z",
+      "sha512": "a5fbff7f98dc7883bcd4170ccfbacc0b5b643932dfa7e4f20bb3369788c8c5b4f3920ca82ec25129067f2d5e56ad98cd1c9728353353ab361b114283dcbb22de",
+      "fileSize": 1740826
+    },
+    {
+      "fileName": "N03_20260101_01_subprefectures.topojson.7z",
+      "generatedAt": "2026-11-06T17:44:46.832Z",
+      "sha512": "5e203a14c4ad16580a276c584bc48b973fa160f4ea6e78ed6e5321f28e90fff76db9bd671fa50774a392e27b8d41a9f226ba4a3e887bd8ba9d9b16ce3591f306",
+      "fileSize": 100866
+    }
+  ]
+}
