@@ -1,4 +1,4 @@
-# Workspace/japanhazardmap.github.io/.github/workflows/static.yml
+# Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/.github/workflows/static.yml
 
 name: Deploy static content to Pages
 
@@ -25,18 +25,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # ▼ Node.js のセットアップを追加
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      # ▼ 静的ファイル限定の catalog.json を自動生成
-      # （CatalogService.js は Node.js 標準モジュールのみ使用しているため npm install 不要）
-      - name: Build static catalog.json
-        working-directory: ViewerServer
-        run: npm run build:catalog
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
