@@ -1,4 +1,4 @@
-// Workspace/your_open_repos/public/viewer/vendor/maplibre-gl.mjs
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/vendor/maplibre-gl.mjs
 
 /**
 * MapLibre GL JS

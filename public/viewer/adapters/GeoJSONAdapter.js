@@ -1,4 +1,4 @@
-// Workspace/your_open_repos/public/viewer/adapters/GeoJSONAdapter.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/adapters/GeoJSONAdapter.js
 
 import {
     fetchGeoData,

@@ -1,4 +1,4 @@
-// Workspace/your_open_repos/public/viewer/getJST.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/getJST.js
 // ------------------------------------------------------------
 // JST Utility Functions
 // 日本標準時（JST）を扱うためのユーティリティ関数群。

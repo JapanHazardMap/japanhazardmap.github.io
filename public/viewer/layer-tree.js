@@ -1,10 +1,51 @@
-// Workspace/japanhazardmap.github.io/public/viewer/layer-tree.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/layer-tree.js
+
+import { DISPLAY_MODES } from "./i18n-dictionary.js";
 
 const SERVER_ONLY_TYPES = new Set(["gpkg", "parquet"]);
 
-export function createLayerTree(layers, handler, { serverAvailable = true } = {}) {
+export function createLayerTree(
+    layers,
+    handler,
+    { serverAvailable = true, dictionaryManager = null, onDisplayModeChange = null } = {}
+) {
     const root = document.getElementById("layerTree");
     const status = document.getElementById("viewerStatus");
+
+    // 表示形式・言語モード切替UI
+    if (dictionaryManager) {
+        const modeBox = document.createElement("div");
+        modeBox.className = "layer-display-mode";
+        modeBox.style.marginBottom = "8px";
+        modeBox.style.paddingBottom = "8px";
+        modeBox.style.borderBottom = "1px solid #ddd";
+
+        const modeLabel = document.createElement("label");
+        modeLabel.textContent = "属性ラベル表記: ";
+        modeLabel.style.fontSize = "12px";
+        modeLabel.style.display = "block";
+        modeLabel.style.marginBottom = "4px";
+
+        const select = document.createElement("select");
+        select.style.width = "100%";
+        select.style.fontSize = "12px";
+        select.style.padding = "3px";
+
+        for (const mode of DISPLAY_MODES) {
+            const opt = document.createElement("option");
+            opt.value = mode.id;
+            opt.textContent = mode.label;
+            select.appendChild(opt);
+        }
+
+        select.addEventListener("change", () => {
+            dictionaryManager.setMode(select.value);
+            onDisplayModeChange?.(select.value);
+        });
+
+        modeBox.append(modeLabel, select);
+        root.appendChild(modeBox);
+    }
 
     for (const layer of layers) {
         const isServerOnly = SERVER_ONLY_TYPES.has(layer.type);

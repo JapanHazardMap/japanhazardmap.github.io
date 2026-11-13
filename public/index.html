@@ -1,10 +1,11 @@
-<!--E:/MyProjects/gitManaged/TopoProject/Workspace/your_open_repos/public/index.html-->
+<!--E:/MyWorkspaces/pnpmManagedWS/TopoProject/Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/index.html-->
 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <title>Japan Hazard Map Viewer</title>
+<link rel="stylesheet" href="/vendor/maplibre-gl/maplibre-gl.css">
 
 <style>
 body{
@@ -18,10 +19,26 @@ body{
 }
 
 #sidebar{
-    width:320px;
+    width:340px;
     overflow:auto;
     border-right:1px solid #ccc;
     padding:10px;
+    box-sizing:border-box;
+}
+
+#viewerStatus{
+    font-size:12px;
+    color:#b91c1c;
+    margin-bottom:8px;
+    min-height:1em;
+}
+
+.layer-row{
+    display:flex;
+    align-items:flex-start;
+    gap:6px;
+    margin-bottom:4px;
+    font-size:12px;
 }
 
 #map{
@@ -29,7 +46,8 @@ body{
     background:#f5f5f5;
 }
 </style>
-
+<!-- ファビコン（favicon.ico|favicon.png）の404エラー解消用のダミーのアイコン指定タグ -->
+<link rel="icon" href="data:,">
 </head>
 <body>
 
@@ -39,6 +57,8 @@ body{
 
         <h3>Layers</h3>
 
+        <div id="viewerStatus"></div>
+
         <div id="layerTree"></div>
 
     </div>
@@ -47,7 +67,7 @@ body{
 
 </div>
 
+<script src="/vendor/pmtiles/pmtiles.js"></script>
 <script type="module" src="./viewer/app.js"></script>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
-// Workspace/japanhazardmap.github.io/public/viewer/map.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/map.js
 
-import * as maplibregl from './vendor/maplibre-gl.mjs';
+import * as maplibregl from '/vendor/maplibre-gl/maplibre-gl.mjs';
 
 // import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs';
 

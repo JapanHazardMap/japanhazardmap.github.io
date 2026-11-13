@@ -1,68 +1,62 @@
-// Workspace/japanhazardmap.github.io/public/viewer/adapters/PMTilesAdapter.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/adapters/PMTilesAdapter.js
 
-import * as maplibregl from '../vendor/maplibre-gl.mjs';
-import { Protocol, PMTiles } from 'https://jsdelivr.net';
+import * as maplibregl from '/vendor/maplibre-gl/maplibre-gl.mjs';
 
-// import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs';
-// import { Protocol, PMTiles } from 'https://cdn.jsdelivr.net/npm/pmtiles@4.5.0/+esm';
+const { Protocol, PMTiles } = window.pmtiles;
 
 let protocolInstalled = false;
 
 export class PMTilesAdapter {
 
-    constructor(map) {
-
+    constructor(map, dictionaryManager = null) {
         this.map = map;
-
-        this.sources =
-            new Map();
+        this.dictionaryManager = dictionaryManager;
+        this.sources = new Map();
 
         if (!protocolInstalled) {
-
-            const protocol =
-                new Protocol();
-
-            maplibregl.addProtocol(
-                "pmtiles",
-                protocol.tile
-            );
-
-            protocolInstalled =
-                true;
+            const protocol = new Protocol();
+            maplibregl.addProtocol("pmtiles", protocol.tile);
+            protocolInstalled = true;
         }
     }
 
     async load(layer) {
-
-        const sourceId =
-            `pmtiles-${layer.id}`;
-
+        const sourceId = `pmtiles-${layer.id}`;
         if (this.sources.has(layer.id)) return;
 
-        const archive =
-            new PMTiles(
-                layer.path
-            );
+        const pmtilesUrl = layer.path || layer.url;
+        const archive = new PMTiles(pmtilesUrl);
 
-        const header =
-            await archive
-                .getHeader();
+        const [header, metadata] = await Promise.all([
+            archive.getHeader(),
+            archive.getMetadata().catch(() => ({}))
+        ]);
+
+        // 埋め込みメタデータ内の fieldLabels があれば辞書へ登録
+        if (this.dictionaryManager && metadata?.description) {
+            try {
+                const descObj = typeof metadata.description === "string"
+                    ? JSON.parse(metadata.description)
+                    : metadata.description;
+                if (descObj?.fieldLabels) {
+                    this.dictionaryManager.registerEmbeddedFieldLabels(layer.id, descObj.fieldLabels);
+                }
+            } catch {}
+        }
 
         const sourceLayer =
             layer.sourceLayer
+            ?? metadata?.vector_layers?.[0]?.id
             ?? header?.json?.vector_layers?.[0]?.id;
+
         if (!sourceLayer) {
-            throw new Error(`PMTiles has no vector layer metadata: ${layer.path}`);
+            throw new Error(`PMTiles has no vector layer metadata: ${pmtilesUrl}`);
         }
 
-        this.map.addSource(
-            sourceId,
-            {
-                type: "vector",
-                url:
-                    `pmtiles://${layer.path}`
-            }
-        );
+        this.map.addSource(sourceId, {
+            type: "vector",
+            url: `pmtiles://${pmtilesUrl}`
+        });
 
         this.map.addLayer({
             id: `${sourceId}-fill`,
@@ -100,10 +94,7 @@ export class PMTilesAdapter {
             }
         });
 
-        this.sources.set(
-            layer.id,
-            sourceId
-        );
+        this.sources.set(layer.id, sourceId);
 
         if (header?.minLon != null && header?.minLat != null
             && header?.maxLon != null && header?.maxLat != null) {
@@ -115,15 +106,8 @@ export class PMTilesAdapter {
     }
 
     hide(layerId) {
-
-        const sourceId =
-            this.sources.get(
-                layerId
-            );
-
-        if (!sourceId) {
-            return;
-        }
+        const sourceId = this.sources.get(layerId);
+        if (!sourceId) return;
 
         for (const suffix of ["fill", "line", "point"]) {
             const layerName = `${sourceId}-${suffix}`;
@@ -132,20 +116,11 @@ export class PMTilesAdapter {
             }
         }
 
-        if (
-            this.map.getSource(
-                sourceId
-            )
-        ) {
-
-            this.map.removeSource(
-                sourceId
-            );
+        if (this.map.getSource(sourceId)) {
+            this.map.removeSource(sourceId);
         }
 
-        this.sources.delete(
-            layerId
-        );
+        this.sources.delete(layerId);
     }
 }
 

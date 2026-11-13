@@ -1,4 +1,4 @@
-// Workspace/your_open_repos/public/viewer/adapters/ServerVectorAdapter.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/adapters/ServerVectorAdapter.js
 
 export class ServerVectorAdapter {
 

@@ -1,4 +1,4 @@
-// Workspace/your_open_repos/public/viewer/data-utils.js
+// Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/data-utils.js
 
 function parseJsonWithNonFiniteValues(source) {
     let output = "";
