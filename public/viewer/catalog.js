@@ -1,7 +1,7 @@
 // Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/catalog.js
 
 export async function loadCatalog() {
-  const response = await fetch('/catalog.json', { cache: 'no-store' });
+  const response = await fetch('./catalog.json', { cache: 'no-store' });
 
   if (!response.ok) {
     throw new Error(`catalog.json load failed : ${response.status}`);

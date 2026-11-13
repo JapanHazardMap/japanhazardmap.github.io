@@ -1,10 +1,25 @@
 // Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/adapters/PMTilesAdapter.js
 
-import * as maplibregl from '/vendor/maplibre-gl/maplibre-gl.mjs';
+import * as maplibregl from '../vendor/maplibre-gl.mjs';
 
 const { Protocol, PMTiles } = window.pmtiles;
 
 let protocolInstalled = false;
+
+/**
+ * 実行環境に応じて PMTiles の参照先 URL を解決する
+ */
+function resolvePmtilesUrl(layer) {
+    const isLocalHost =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1" ||
+        window.location.hostname === "[::1]";
+
+    if (isLocalHost) {
+        return layer.url || layer.path || layer.publicUrl;
+    }
+    return layer.publicUrl || layer.url || layer.path;
+}
 
 export class PMTilesAdapter {
 
@@ -24,7 +39,7 @@ export class PMTilesAdapter {
         const sourceId = `pmtiles-${layer.id}`;
         if (this.sources.has(layer.id)) return;
 
-        const pmtilesUrl = layer.path || layer.url;
+        const pmtilesUrl = resolvePmtilesUrl(layer);
         const archive = new PMTiles(pmtilesUrl);
 
         const [header, metadata] = await Promise.all([
@@ -93,16 +108,30 @@ export class PMTilesAdapter {
                 "circle-stroke-width": 1
             }
         });
-
+        
         this.sources.set(layer.id, sourceId);
 
-        if (header?.minLon != null && header?.minLat != null
-            && header?.maxLon != null && header?.maxLat != null) {
-            this.map.fitBounds(
-                [[header.minLon, header.minLat], [header.maxLon, header.maxLat]],
-                { padding: 40, maxZoom: 12 }
-            );
+        // バウンディングボックスの取得（header または metadata.bounds から取得）
+        let bounds = null;
+        if (
+            Number.isFinite(header?.minLon) && Number.isFinite(header?.minLat) &&
+            Number.isFinite(header?.maxLon) && Number.isFinite(header?.maxLat) &&
+            header.minLon < header.maxLon && header.minLat < header.maxLat
+        ) {
+            bounds = [[header.minLon, header.minLat], [header.maxLon, header.maxLat]];
+        } else if (Array.isArray(metadata?.bounds) && metadata.bounds.length === 4) {
+            bounds = [[metadata.bounds[0], metadata.bounds[1]], [metadata.bounds[2], metadata.bounds[3]]];
         }
+
+        if (bounds) {
+            this.map.fitBounds(bounds, { padding: 40, maxZoom: 12 });
+        } else {
+            // 境界が取得できない場合でも、タイルが表示されるズームレベル（例: 10）まで寄せる
+            if (this.map.getZoom() < 9) {
+                this.map.zoomTo(10);
+            }
+        }
+
     }
 
     hide(layerId) {

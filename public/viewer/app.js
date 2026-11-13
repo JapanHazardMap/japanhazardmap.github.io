@@ -1,6 +1,6 @@
 // Workspace/publicRepos/JapanHazardMap/japanhazardmap.github.io/public/viewer/app.js
 
-import * as maplibregl from "/vendor/maplibre-gl/maplibre-gl.mjs";
+import * as maplibregl from "./vendor/maplibre-gl.mjs";
 import { ViewerMap } from "./map.js";
 import { loadCatalog } from "./catalog.js";
 import { createLayerTree } from "./layer-tree.js";
@@ -13,6 +13,15 @@ import { ServerVectorAdapter } from "./adapters/ServerVectorAdapter.js";
 const SERVER_ONLY_TYPES = new Set(["gpkg", "parquet"]);
 
 async function checkServerAvailable() {
+    const isLocalHost =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1" ||
+        window.location.hostname === "[::1]";
+
+    if (!isLocalHost) {
+        return false;
+    }
+
     try {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), 1500);
@@ -28,6 +37,7 @@ async function checkServerAvailable() {
         return false;
     }
 }
+
 
 function escapeHtml(text) {
     return String(text)
@@ -90,19 +100,18 @@ async function bootstrap() {
         await viewerMap.initialize();
 
         const map = viewerMap.getMap();
-        const pmtilesAdapter = new PMTilesAdapter(map);
-        const geojsonAdapter = new GeoJSONAdapter(viewerMap);
-        const topojsonAdapter = new TopoJSONAdapter(viewerMap);
-        const serverVectorAdapter = new ServerVectorAdapter(viewerMap, (message) => {
-            status.textContent = message;
-        });
-
         const [{ datasets: catalog, dictionary }, serverAvailable] = await Promise.all([
             loadCatalog(),
             checkServerAvailable()
         ]);
 
         const dictionaryManager = new FieldDictionaryManager(dictionary);
+        const pmtilesAdapter = new PMTilesAdapter(map, dictionaryManager);
+        const geojsonAdapter = new GeoJSONAdapter(viewerMap);
+        const topojsonAdapter = new TopoJSONAdapter(viewerMap);
+        const serverVectorAdapter = new ServerVectorAdapter(viewerMap, (message) => {
+            status.textContent = message;
+        });
         const layerMetaMap = new Map(catalog.map((item) => [item.id, item]));
 
         if (catalog.length === 0) {
@@ -135,7 +144,7 @@ async function bootstrap() {
         map.on("click", (e) => {
             const interactiveLayers = map
                 .getStyle()
-                .layers.filter((l) => l.id !== "background")
+                .layers.filter((l) => l.id !== "background" && !l.id.startsWith("basemap-layer-"))
                 .map((l) => l.id);
 
             if (interactiveLayers.length === 0) return;
