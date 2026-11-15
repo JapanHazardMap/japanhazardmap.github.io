@@ -20,7 +20,7 @@
         overflow: hidden;
       }
 
-      /* トップメニューバー */
+      /* トップメニューバー（上下スライド格納対応） */
       #topbar {
         display: flex;
         flex-wrap: wrap;
@@ -30,8 +30,22 @@
         background: #1e293b;
         color: #f8fafc;
         z-index: 20;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+        max-height: 260px;
+        overflow: hidden;
+        transition:
+          max-height 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+          padding 0.28s ease,
+          opacity 0.22s ease;
       }
+      #topbar.collapsed {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        opacity: 0;
+        pointer-events: none;
+      }
+
       #topbar h1 {
         font-size: 15px;
         margin: 0 6px 0 0;
@@ -73,11 +87,12 @@
         background: #64748b;
         cursor: wait;
       }
+
       .topbar-right {
         margin-left: auto;
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
       }
       .topbar-right a {
         color: #93c5fd;
@@ -87,6 +102,19 @@
       }
       .topbar-right a:hover {
         text-decoration: underline;
+      }
+
+      #btn-topbar-close {
+        background: #334155;
+        color: #f1f5f9;
+        border: 1px solid #64748b;
+        padding: 4px 8px;
+        font-size: 12px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      #btn-topbar-close:hover {
+        background: #475569;
       }
 
       /* メインエリア */
@@ -102,7 +130,32 @@
         width: 100%;
       }
 
-      /* 格納時に表示される引き出しボタン（つまみ） */
+      /* トップバー格納時に右上に表示される再表示ボタン */
+      #btn-topbar-open {
+        position: absolute;
+        top: 12px;
+        right: 54px; /* 右上のズーム・ベースマップUIと重ならない位置 */
+        z-index: 15;
+        background: #1e293b;
+        color: #f8fafc;
+        border: 1px solid #475569;
+        border-radius: 6px;
+        padding: 7px 11px;
+        font-size: 12px;
+        font-weight: bold;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        transition:
+          opacity 0.2s ease,
+          transform 0.2s ease;
+      }
+      #btn-topbar-open.hidden {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-16px);
+      }
+
+      /* 左レイヤーパネル格納時に表示される引き出しボタン */
       #btn-drawer-open {
         position: absolute;
         top: 12px;
@@ -130,7 +183,7 @@
         transform: translateX(-16px);
       }
 
-      /* 選択された自治体のデータ切替パネル（スライド格納対応） */
+      /* 選択された自治体のデータ切替パネル（左スライド格納対応） */
       #layer-drawer {
         position: absolute;
         top: 12px;
@@ -154,7 +207,6 @@
         pointer-events: none;
       }
 
-      /* パネルヘッダーと閉じるボタン */
       .drawer-header {
         display: flex;
         align-items: center;
@@ -216,11 +268,15 @@
         flex-shrink: 0;
       }
 
-      /* スマホ縦画面ではパネル高さを抑えて下の地図を見やすくする */
       @media (max-width: 600px) {
         #layer-drawer {
-          max-height: 46vh;
-          max-height: 46dvh;
+          max-height: 45vh;
+          max-height: 45dvh;
+        }
+        #btn-topbar-open {
+          top: 56px;
+          left: 12px;
+          right: auto;
         }
       }
 
@@ -271,11 +327,19 @@
 
       <div class="topbar-right">
         <a href="./layers/">全レイヤー一覧 (/layers)</a>
+        <button id="btn-topbar-close" type="button" title="上部メニューを隠す">
+          ▲ メニューを隠す
+        </button>
       </div>
     </header>
 
     <div id="main">
-      <!-- 格納中に表示される引き出しボタン -->
+      <!-- トップメニュー格納時に表示される再表示ボタン -->
+      <button id="btn-topbar-open" class="hidden" type="button" aria-label="検索メニューを開く">
+        ▼ 地域選択メニュー
+      </button>
+
+      <!-- 左パネル格納時に表示される引き出しボタン -->
       <button id="btn-drawer-open" class="hidden" type="button" aria-label="レイヤー一覧を開く">
         ☰ レイヤー切替
       </button>

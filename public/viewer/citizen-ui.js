@@ -7,9 +7,14 @@ export class CitizenUI {
     this.onSelectMuni = onSelectMuni;
     this.onToggleLayer = onToggleLayer;
 
+    this.topbar = document.getElementById('topbar');
+    this.btnTopbarClose = document.getElementById('btn-topbar-close');
+    this.btnTopbarOpen = document.getElementById('btn-topbar-open');
+
     this.prefSelect = document.getElementById('pref-select');
     this.muniSelect = document.getElementById('muni-select');
     this.btnNearby = document.getElementById('btn-nearby');
+
     this.drawer = document.getElementById('layer-drawer');
     this.btnDrawerOpen = document.getElementById('btn-drawer-open');
     this.btnDrawerClose = document.getElementById('btn-drawer-close');
@@ -17,7 +22,27 @@ export class CitizenUI {
     this.statusText = document.getElementById('status-text');
     this.activeLayersEl = document.getElementById('active-layers');
 
+    this.initTopbarControls();
     this.initDrawerControls();
+  }
+
+  initTopbarControls() {
+    if (this.btnTopbarClose) {
+      this.btnTopbarClose.addEventListener('click', () => this.collapseTopbar());
+    }
+    if (this.btnTopbarOpen) {
+      this.btnTopbarOpen.addEventListener('click', () => this.expandTopbar());
+    }
+  }
+
+  collapseTopbar() {
+    if (this.topbar) this.topbar.classList.add('collapsed');
+    if (this.btnTopbarOpen) this.btnTopbarOpen.classList.remove('hidden');
+  }
+
+  expandTopbar() {
+    if (this.topbar) this.topbar.classList.remove('collapsed');
+    if (this.btnTopbarOpen) this.btnTopbarOpen.classList.add('hidden');
   }
 
   initDrawerControls() {
@@ -28,24 +53,23 @@ export class CitizenUI {
       this.btnDrawerOpen.addEventListener('click', () => this.expandDrawer());
     }
 
-    // スマホ向け：パネルを左にスワイプしたら格納する
+    // スマホ向け：左方向スワイプでレイヤーパネルを格納
     if (this.drawer) {
       let touchStartX = 0;
       let touchStartY = 0;
       this.drawer.addEventListener(
         'touchstart',
         (e) => {
-          touchStartX = e.touches[0].clientX;
-          touchStartY = e.touches[0].clientY;
+          touchStartX = e.touches.clientX;
+          touchStartY = e.touches.clientY;
         },
         { passive: true },
       );
       this.drawer.addEventListener(
         'touchend',
         (e) => {
-          const dx = e.changedTouches[0].clientX - touchStartX;
-          const dy = e.changedTouches[0].clientY - touchStartY;
-          // 縦スクロールではなく左方向へ50px以上スワイプした場合
+          const dx = e.changedTouches.clientX - touchStartX;
+          const dy = e.changedTouches.clientY - touchStartY;
           if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
             this.collapseDrawer();
           }
