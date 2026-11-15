@@ -53,25 +53,28 @@ export class CitizenUI {
       this.btnDrawerOpen.addEventListener('click', () => this.expandDrawer());
     }
 
-    // スマホ向け：左方向スワイプでレイヤーパネルを格納
     if (this.drawer) {
       let touchStartX = 0;
       let touchStartY = 0;
       this.drawer.addEventListener(
         'touchstart',
         (e) => {
-          touchStartX = e.touches.clientX;
-          touchStartY = e.touches.clientY;
+          if (e.touches && e.touches.length > 0) {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+          }
         },
         { passive: true },
       );
       this.drawer.addEventListener(
         'touchend',
         (e) => {
-          const dx = e.changedTouches.clientX - touchStartX;
-          const dy = e.changedTouches.clientY - touchStartY;
-          if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
-            this.collapseDrawer();
+          if (e.changedTouches && e.changedTouches.length > 0) {
+            const dx = e.changedTouches[0].clientX - touchStartX;
+            const dy = e.changedTouches[0].clientY - touchStartY;
+            if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
+              this.collapseDrawer();
+            }
           }
         },
         { passive: true },
