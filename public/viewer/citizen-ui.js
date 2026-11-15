@@ -10,9 +10,59 @@ export class CitizenUI {
     this.prefSelect = document.getElementById('pref-select');
     this.muniSelect = document.getElementById('muni-select');
     this.btnNearby = document.getElementById('btn-nearby');
+    this.drawer = document.getElementById('layer-drawer');
+    this.btnDrawerOpen = document.getElementById('btn-drawer-open');
+    this.btnDrawerClose = document.getElementById('btn-drawer-close');
     this.drawerTitle = document.getElementById('drawer-title');
     this.statusText = document.getElementById('status-text');
     this.activeLayersEl = document.getElementById('active-layers');
+
+    this.initDrawerControls();
+  }
+
+  initDrawerControls() {
+    if (this.btnDrawerClose) {
+      this.btnDrawerClose.addEventListener('click', () => this.collapseDrawer());
+    }
+    if (this.btnDrawerOpen) {
+      this.btnDrawerOpen.addEventListener('click', () => this.expandDrawer());
+    }
+
+    // スマホ向け：パネルを左にスワイプしたら格納する
+    if (this.drawer) {
+      let touchStartX = 0;
+      let touchStartY = 0;
+      this.drawer.addEventListener(
+        'touchstart',
+        (e) => {
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        },
+        { passive: true },
+      );
+      this.drawer.addEventListener(
+        'touchend',
+        (e) => {
+          const dx = e.changedTouches[0].clientX - touchStartX;
+          const dy = e.changedTouches[0].clientY - touchStartY;
+          // 縦スクロールではなく左方向へ50px以上スワイプした場合
+          if (dx < -50 && Math.abs(dx) > Math.abs(dy)) {
+            this.collapseDrawer();
+          }
+        },
+        { passive: true },
+      );
+    }
+  }
+
+  collapseDrawer() {
+    if (this.drawer) this.drawer.classList.add('collapsed');
+    if (this.btnDrawerOpen) this.btnDrawerOpen.classList.remove('hidden');
+  }
+
+  expandDrawer() {
+    if (this.drawer) this.drawer.classList.remove('collapsed');
+    if (this.btnDrawerOpen) this.btnDrawerOpen.classList.add('hidden');
   }
 
   initDropdowns() {
@@ -82,6 +132,7 @@ export class CitizenUI {
   }
 
   async renderMunicipalityLayers(muniDatasetsMap, title, autoLoadAdminOnly = false) {
+    this.expandDrawer();
     this.activeLayersEl.innerHTML = '';
     this.drawerTitle.textContent = title;
 

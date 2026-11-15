@@ -15,7 +15,9 @@
         display: flex;
         flex-direction: column;
         height: 100vh;
+        height: 100dvh;
         font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+        overflow: hidden;
       }
 
       /* トップメニューバー */
@@ -23,16 +25,16 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 10px;
-        padding: 8px 14px;
+        gap: 8px 10px;
+        padding: 8px 12px;
         background: #1e293b;
         color: #f8fafc;
-        z-index: 10;
+        z-index: 20;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
       }
       #topbar h1 {
-        font-size: 16px;
-        margin: 0 8px 0 0;
+        font-size: 15px;
+        margin: 0 6px 0 0;
         white-space: nowrap;
       }
       .control-group {
@@ -55,7 +57,7 @@
       select {
         background: #ffffff;
         color: #0f172a;
-        min-width: 140px;
+        min-width: 135px;
       }
       button#btn-nearby {
         background: #0284c7;
@@ -81,6 +83,7 @@
         color: #93c5fd;
         font-size: 12px;
         text-decoration: none;
+        white-space: nowrap;
       }
       .topbar-right a:hover {
         text-decoration: underline;
@@ -96,29 +99,91 @@
       #map {
         flex: 1;
         height: 100%;
+        width: 100%;
       }
 
-      /* 選択された自治体のデータ切替パネル（フローティング） */
+      /* 格納時に表示される引き出しボタン（つまみ） */
+      #btn-drawer-open {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        z-index: 9;
+        background: #ffffff;
+        color: #0f172a;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        padding: 8px 12px;
+        font-size: 13px;
+        font-weight: bold;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        transition:
+          opacity 0.2s ease,
+          transform 0.2s ease;
+      }
+      #btn-drawer-open.hidden {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(-16px);
+      }
+
+      /* 選択された自治体のデータ切替パネル（スライド格納対応） */
       #layer-drawer {
         position: absolute;
         top: 12px;
         left: 12px;
-        width: 300px;
-        max-height: calc(100vh - 90px);
+        width: 310px;
+        max-width: calc(100vw - 24px);
+        max-height: calc(100% - 24px);
         background: rgba(255, 255, 255, 0.96);
-        border-radius: 6px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+        border-radius: 8px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
         padding: 12px;
         overflow-y: auto;
-        z-index: 5;
+        z-index: 10;
+        transition:
+          transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+          opacity 0.22s ease;
       }
-      #layer-drawer h2 {
-        font-size: 14px;
-        margin: 0 0 6px;
-        color: #0f172a;
+      #layer-drawer.collapsed {
+        transform: translateX(calc(-100% - 24px));
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      /* パネルヘッダーと閉じるボタン */
+      .drawer-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
         border-bottom: 1px solid #e2e8f0;
         padding-bottom: 6px;
+        margin-bottom: 6px;
       }
+      #drawer-title {
+        font-size: 14px;
+        margin: 0;
+        color: #0f172a;
+        flex: 1;
+      }
+      #btn-drawer-close {
+        background: #f1f5f9;
+        color: #334155;
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        padding: 3px 8px;
+        font-size: 12px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      #btn-drawer-close:hover {
+        background: #e2e8f0;
+      }
+
       #status-text {
         font-size: 12px;
         color: #475569;
@@ -139,11 +204,24 @@
       }
       .layer-item {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 6px;
         font-size: 12px;
-        margin: 4px 0;
+        margin: 5px 0;
         cursor: pointer;
+        word-break: break-all;
+      }
+      .layer-item input[type='checkbox'] {
+        margin-top: 2px;
+        flex-shrink: 0;
+      }
+
+      /* スマホ縦画面ではパネル高さを抑えて下の地図を見やすくする */
+      @media (max-width: 600px) {
+        #layer-drawer {
+          max-height: 46vh;
+          max-height: 46dvh;
+        }
       }
 
       /* ポップアップテーブル */
@@ -197,13 +275,23 @@
     </header>
 
     <div id="main">
+      <!-- 格納中に表示される引き出しボタン -->
+      <button id="btn-drawer-open" class="hidden" type="button" aria-label="レイヤー一覧を開く">
+        ☰ レイヤー切替
+      </button>
+
+      <!-- スライド格納可能なレイヤーパネル -->
       <aside id="layer-drawer">
-        <h2 id="drawer-title">表示エリアを選択</h2>
+        <div class="drawer-header">
+          <h2 id="drawer-title">表示エリアを選択</h2>
+          <button id="btn-drawer-close" type="button" title="パネルを隠す">◀ 隠す</button>
+        </div>
         <div id="status-text">
           上のメニューから都道府県・市区町村を選ぶか、「現在地周辺（半径500m）」を押してください。
         </div>
         <div id="active-layers"></div>
       </aside>
+
       <div id="map"></div>
     </div>
 
