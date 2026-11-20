@@ -165,25 +165,47 @@ export class CitizenUI {
 
     const entries = Array.from(muniDatasetsMap.entries());
     if (entries.length === 0) {
-      this.statusText.textContent = '該当する市区町村データが見つかりませんでした。';
+      this.statusText.textContent = '該当するデータが見つかりませんでした。';
       return;
     }
 
-    this.statusText.textContent = `${entries.length} 件の自治体のデータを表示しています。チェックボックスでレイヤーを切り替えられます。`;
+    // 結合済みPMTiles（都道府県／北海道振興局単位）と自治体固有レイヤーを分離し、
+    // 同じ結合済みPMTilesの重複ロードを防止する
+    const mergedLayerMap = new Map();
+    const perMuniLayers = [];
 
     for (const [code, list] of entries) {
-      const info = this.municipalities[code];
-      const muniLabel = info?.fullName ? `${info.fullName} (${code})` : `自治体コード: ${code}`;
+      const muniOnly = [];
+      for (const layer of list) {
+        if (layer.isMerged) {
+          if (!mergedLayerMap.has(layer.id)) {
+            mergedLayerMap.set(layer.id, layer);
+          }
+        } else {
+          muniOnly.push(layer);
+        }
+      }
+      if (muniOnly.length > 0) {
+        perMuniLayers.push([code, muniOnly]);
+      }
+    }
+
+    const totalUniqueLayers =
+      mergedLayerMap.size + perMuniLayers.reduce((acc, [, l]) => acc + l.length, 0);
+    this.statusText.textContent = `${totalUniqueLayers} 件のレイヤーを表示できます。チェックボックスで切り替えられます。`;
+
+    const appendLayerGroup = async (groupTitle, layerList) => {
+      if (layerList.length === 0) return;
 
       const groupEl = document.createElement('div');
       groupEl.className = 'dataset-group';
 
       const titleEl = document.createElement('div');
       titleEl.className = 'dataset-group-title';
-      titleEl.textContent = muniLabel;
+      titleEl.textContent = groupTitle;
       groupEl.appendChild(titleEl);
 
-      for (const layer of list) {
+      for (const layer of layerList) {
         const label = document.createElement('label');
         label.className = 'layer-item';
 
@@ -207,12 +229,39 @@ export class CitizenUI {
         groupEl.appendChild(label);
 
         if (shouldAutoCheck) {
-          // autoLoadAdminOnly（現在地検索）のときは自動ズーム移動を無効化
           await this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly });
         }
       }
 
       this.activeLayersEl.appendChild(groupEl);
+    };
+
+    // 1. 結合済み PMTiles（都道府県／振興局単位）をスコープ（振興局 or 都道府県）ごとに描画
+    if (mergedLayerMap.size > 0) {
+      const groupedMerged = new Map(); // scopeKey -> { label, layers }
+      for (const layer of mergedLayerMap.values()) {
+        const prefLabel = PREF_NAMES[layer.regionCode] || layer.regionCode || '広域';
+        const scopeKey = layer.bureauCode || layer.regionCode || 'general';
+        const scopeLabel = layer.bureauName
+          ? `${prefLabel} ${layer.bureauName}（広域結合データ）`
+          : `${prefLabel}（広域結合データ）`;
+
+        if (!groupedMerged.has(scopeKey)) {
+          groupedMerged.set(scopeKey, { label: scopeLabel, layers: [] });
+        }
+        groupedMerged.get(scopeKey).layers.push(layer);
+      }
+
+      for (const { label, layers } of groupedMerged.values()) {
+        await appendLayerGroup(label, layers);
+      }
+    }
+
+    // 2. 結合済みが存在しないフォールバックの市区町村別データがある場合のみ描画
+    for (const [code, list] of perMuniLayers) {
+      const info = this.municipalities[code];
+      const muniLabel = info?.fullName ? `${info.fullName} (${code})` : `自治体コード: ${code}`;
+      await appendLayerGroup(muniLabel, list);
     }
   }
 }
