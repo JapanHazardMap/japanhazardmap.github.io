@@ -1,1 +1,18 @@
-[{"id":"ksj_raw_pmtiles_N03/N03-20260101_47359","name":"[行政区域 (N03)] N03-20260101_47359","titleJa":"行政区域","type":"pmtiles","url":"/ksj_raw_pmtiles_N03/full/47/N03-20260101_47359.pmtiles","repoName":"ksj_raw_pmtiles_N03","pipelineId":"ksj","datasetId":"N03","category":"full","regionCode":"47","fileName":"N03-20260101_47359.pmtiles","municipalityCode":"47359","sizeBytes":26177,"updatedAt":"2026-11-13T03:29:35.959Z"}]
+[
+  {
+    "id": "eStatBdy_raw_pmtiles_shikoku_kyushu/eStatBdy-2020_47359",
+    "name": "[shikoku_kyushu] eStatBdy-2020_47359",
+    "titleJa": "shikoku_kyushu",
+    "type": "pmtiles",
+    "url": "/eStatBdy_raw_pmtiles_shikoku_kyushu/full/47/eStatBdy-2020_47359.pmtiles",
+    "repoName": "eStatBdy_raw_pmtiles_shikoku_kyushu",
+    "pipelineId": "eStatBdy",
+    "datasetId": "shikoku_kyushu",
+    "category": "full",
+    "regionCode": "47",
+    "fileName": "eStatBdy-2020_47359.pmtiles",
+    "municipalityCode": "47359",
+    "sizeBytes": 90806,
+    "updatedAt": "2026-11-19T16:45:45.017Z"
+  }
+]

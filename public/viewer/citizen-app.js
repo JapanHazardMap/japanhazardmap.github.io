@@ -56,9 +56,10 @@ async function init() {
       }
     }
 
-    async function handleToggleLayer(layer, checked) {
+    // options を受け取れるように変更
+    async function handleToggleLayer(layer, checked, options = {}) {
       if (checked) {
-        await pmtilesAdapter.load(layer);
+        await pmtilesAdapter.load(layer, options);
         loadedLayerIds.add(layer.id);
       } else {
         pmtilesAdapter.hide(layer.id);

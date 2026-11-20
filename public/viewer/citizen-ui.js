@@ -207,7 +207,8 @@ export class CitizenUI {
         groupEl.appendChild(label);
 
         if (shouldAutoCheck) {
-          await this.onToggleLayer(layer, true);
+          // autoLoadAdminOnly（現在地検索）のときは自動ズーム移動を無効化
+          await this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly });
         }
       }
 

@@ -1,97 +1,30 @@
-# Workspace/japanhazardmap.github.io/.gitignore
-
-##################################################
-# over100mb_usedlfs
-##################################################
-
-public/data/over100mb_usedlfs/
-
-##################################################
-# ViewerServer Runtime / Diagnostics
-##################################################
-ViewerServer/diagnostics/
-*.duckdb
-*.duckdb.wal
-*.gpkg-shm
-*.gpkg-wal
-
-##################################################
-# Node
-##################################################
-
-node_modules/
-npm-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-##################################################
-# Python
-##################################################
-
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.venv/
-venv/
-
-##################################################
-# IDE
-##################################################
-
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/tasks.json
-
-.idea/
-
-##################################################
-# OS
-##################################################
-
+# OS / IDE
+.DS_Store
 Thumbs.db
 Desktop.ini
-.DS_Store
+.vscode/
+.idea/
 
-##################################################
 # Environment
-##################################################
-
 .env
 .env.*
 *.secret
 *.key
 
-##################################################
-# Local Development
-##################################################
-
-*.local.js
-*.local.json
+# Temporary / Reports
+temp/
+tmp/
+cache/
+*.log
 *.bak
 *.backup
-
-##################################################
-# Logs
-##################################################
-
-*.log
-
-##################################################
-# File Structure Reports
-##################################################
-
-fileStructure/
 FileList*.txt
 FileSummary*.txt
 
-##################################################
-# merged_logs / merged_codes Reports
-##################################################
-
-merged_files/
-merged_logs*.txt
-merged_codes*.txt
-
+# GIS Large Files (Hosted on GitHub Releases)
+*.pmtiles
+*.mbtiles
+*.geojson
+*.gpkg
+*.parquet
+*.topojson

@@ -1,1 +1,18 @@
-[{"id":"ksj_raw_pmtiles_N03/N03-20260101_07546","name":"[行政区域 (N03)] N03-20260101_07546","titleJa":"行政区域","type":"pmtiles","url":"/ksj_raw_pmtiles_N03/full/07/N03-20260101_07546.pmtiles","repoName":"ksj_raw_pmtiles_N03","pipelineId":"ksj","datasetId":"N03","category":"full","regionCode":"07","fileName":"N03-20260101_07546.pmtiles","municipalityCode":"07546","sizeBytes":17881,"updatedAt":"2026-11-13T02:45:28.784Z"}]
+[
+  {
+    "id": "eStatBdy_raw_pmtiles_hokkaido_tohoku/eStatBdy-2020_07546",
+    "name": "[hokkaido_tohoku] eStatBdy-2020_07546",
+    "titleJa": "hokkaido_tohoku",
+    "type": "pmtiles",
+    "url": "/eStatBdy_raw_pmtiles_hokkaido_tohoku/full/07/eStatBdy-2020_07546.pmtiles",
+    "repoName": "eStatBdy_raw_pmtiles_hokkaido_tohoku",
+    "pipelineId": "eStatBdy",
+    "datasetId": "hokkaido_tohoku",
+    "category": "full",
+    "regionCode": "07",
+    "fileName": "eStatBdy-2020_07546.pmtiles",
+    "municipalityCode": "07546",
+    "sizeBytes": 190987,
+    "updatedAt": "2026-11-19T14:42:36.310Z"
+  }
+]
