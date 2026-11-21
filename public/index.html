@@ -7,11 +7,20 @@
     <title>Japan Hazard Map Viewer</title>
     <link rel="stylesheet" href="./viewer/vendor/maplibre-gl.css" />
     <link rel="stylesheet" href="./viewer/citizen.css" />
-    <link rel="icon" href="./favicon_jpn_map2.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./app-icons/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./app-icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="./app-icons/favicon-48x48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./app-icons/apple-touch-icon-180x180.png" />
+    <link rel="manifest" href="./app-icons/site.webmanifest" />
+    <meta name="msapplication-config" content="./app-icons/browserconfig.xml" />
+    <meta property="og:image" content="https://japanhazardmap.github.io/app-icons/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
   </head>
   <body>
     <header id="topbar">
-      <h1>Japan Hazard Map</h1>
+      <a href="https://japanhazardmap.github.io"><h1>Japan Hazard Map</h1></a>
 
       <div class="control-group">
         <label for="pref-select">都道府県</label>
@@ -27,7 +36,7 @@
         </select>
       </div>
 
-      <button id="btn-nearby" type="button">  現在地周辺（半径500m）を表示</button>
+      <button id="btn-nearby" type="button">現在地周辺（半径500m）を表示</button>
 
       <div class="topbar-right">
         <a href="./layers/">全レイヤー一覧 (/layers)</a>
