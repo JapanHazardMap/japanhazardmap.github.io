@@ -1,7 +1,7 @@
 # MERGED SOURCE CODES
 
 Script    : concat-codes.js
-Generated : 2026-11-21_11:24:35
+Generated : 2026-11-21_15:02:45
 targetDir : E:\MyWorkspaces\pnpmManagedWS\TopoProject\Workspace\publicRepos\JapanHazardMap\japanhazardmap.github.io\public\viewer
 Files     : 21
 
@@ -1192,27 +1192,37 @@ export class CitizenUI {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
 
+        // 97件一斉ロードによるフリーズを防ぐため、初期チェックは行政区域(N03)や特定データのみに限定する
         const isAdminPolygon =
           layer.datasetId === 'N03' || String(layer.fileName || '').startsWith('N03');
-        const shouldAutoCheck = autoLoadAdminOnly ? isAdminPolygon : true;
-        checkbox.checked = shouldAutoCheck;
+        checkbox.checked = isAdminPolygon;
 
         const text = document.createElement('span');
         text.textContent = `${layer.titleJa || layer.datasetId} (${layer.fileName})`;
 
         checkbox.addEventListener('change', async () => {
-          await this.onToggleLayer(layer, checkbox.checked);
+          try {
+            await this.onToggleLayer(layer, checkbox.checked);
+          } catch (err) {
+            console.error(`レイヤー表示エラー (${layer.fileName}):`, err);
+            checkbox.checked = false;
+            alert(`このレイヤーはデータが空か、読み込めませんでした: ${layer.fileName}`);
+          }
         });
 
         label.appendChild(checkbox);
         label.appendChild(text);
         groupEl.appendChild(label);
 
-        if (shouldAutoCheck) {
-          await this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly });
+        if (checkbox.checked) {
+          this.onToggleLayer(layer, true, { fitBounds: false }).catch((err) => {
+            console.warn(`初期レイヤー読込スキップ (${layer.fileName}):`, err);
+            checkbox.checked = false;
+          });
         }
       }
 
+      // まず画面にリストを描画する
       this.activeLayersEl.appendChild(groupEl);
     };
 

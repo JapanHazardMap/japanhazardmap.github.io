@@ -1,21 +1,5 @@
 [
   {
-    "id": "ksj_raw_pmtiles/A33_25_25Polygon",
-    "name": "[土砂災害警戒区域 (A33)] A33_25_25Polygon",
-    "titleJa": "土砂災害警戒区域",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles/full/18/A33_25_25Polygon.pmtiles",
-    "repoName": "ksj_raw_pmtiles",
-    "pipelineId": "ksj",
-    "datasetId": "A33",
-    "category": "full",
-    "regionCode": "18",
-    "fileName": "A33_25_25Polygon.pmtiles",
-    "isMerged": true,
-    "sizeBytes": 40394805,
-    "updatedAt": "2026-11-21T01:06:35.408Z"
-  },
-  {
     "id": "eStatBdy_raw_pmtiles_chuuhou/eStatBdy-2020_18501",
     "name": "[chuuhou] eStatBdy-2020_18501",
     "titleJa": "chuuhou",
@@ -82,5 +66,22 @@
     "municipalityCode": "18501",
     "sizeBytes": 21075,
     "updatedAt": "2026-11-14T14:59:35.889Z"
+  },
+  {
+    "id": "ksj_raw_pmtiles_A33/A33_25_25Polygon_18501",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_25Polygon_18501",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles_A33/full/18/A33_25_25Polygon_18501.pmtiles",
+    "repoName": "ksj_raw_pmtiles_A33",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "18",
+    "fileName": "A33_25_25Polygon_18501.pmtiles",
+    "isMerged": false,
+    "municipalityCode": "18501",
+    "sizeBytes": 5712,
+    "updatedAt": "2026-11-20T22:27:18.055Z"
   }
 ]
