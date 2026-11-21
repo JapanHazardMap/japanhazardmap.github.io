@@ -205,6 +205,8 @@ export class CitizenUI {
       titleEl.textContent = groupTitle;
       groupEl.appendChild(titleEl);
 
+      const loadTasks = [];
+
       for (const layer of layerList) {
         const label = document.createElement('label');
         label.className = 'layer-item';
@@ -221,7 +223,12 @@ export class CitizenUI {
         text.textContent = `${layer.titleJa || layer.datasetId} (${layer.fileName})`;
 
         checkbox.addEventListener('change', async () => {
-          await this.onToggleLayer(layer, checkbox.checked);
+          try {
+            await this.onToggleLayer(layer, checkbox.checked);
+          } catch (err) {
+            console.error(`レイヤー切替エラー (${layer.id}):`, err);
+            checkbox.checked = !checkbox.checked;
+          }
         });
 
         label.appendChild(checkbox);
@@ -229,11 +236,21 @@ export class CitizenUI {
         groupEl.appendChild(label);
 
         if (shouldAutoCheck) {
-          await this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly });
+          // ループ内で await せず、エラー時も他のレイヤーが止まらないようにする
+          loadTasks.push(
+            this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly }).catch((err) => {
+              console.warn(`レイヤー初期読込失敗 (${layer.id}):`, err);
+              checkbox.checked = false;
+            }),
+          );
         }
       }
 
+      // 先にDOMへ追加してリストを即座に表示する
       this.activeLayersEl.appendChild(groupEl);
+
+      // 並列でレイヤー読み込みを実行
+      await Promise.allSettled(loadTasks);
     };
 
     // 1. 結合済み PMTiles（都道府県／振興局単位）をスコープ（振興局 or 都道府県）ごとに描画
