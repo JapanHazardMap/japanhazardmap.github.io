@@ -205,8 +205,6 @@ export class CitizenUI {
       titleEl.textContent = groupTitle;
       groupEl.appendChild(titleEl);
 
-      const loadTasks = [];
-
       for (const layer of layerList) {
         const label = document.createElement('label');
         label.className = 'layer-item';
@@ -214,10 +212,10 @@ export class CitizenUI {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
 
+        // 97件一斉ロードによるフリーズを防ぐため、初期チェックは行政区域(N03)や特定データのみに限定する
         const isAdminPolygon =
           layer.datasetId === 'N03' || String(layer.fileName || '').startsWith('N03');
-        const shouldAutoCheck = autoLoadAdminOnly ? isAdminPolygon : true;
-        checkbox.checked = shouldAutoCheck;
+        checkbox.checked = isAdminPolygon;
 
         const text = document.createElement('span');
         text.textContent = `${layer.titleJa || layer.datasetId} (${layer.fileName})`;
@@ -226,8 +224,9 @@ export class CitizenUI {
           try {
             await this.onToggleLayer(layer, checkbox.checked);
           } catch (err) {
-            console.error(`レイヤー切替エラー (${layer.id}):`, err);
-            checkbox.checked = !checkbox.checked;
+            console.error(`レイヤー表示エラー (${layer.fileName}):`, err);
+            checkbox.checked = false;
+            alert(`このレイヤーはデータが空か、読み込めませんでした: ${layer.fileName}`);
           }
         });
 
@@ -235,22 +234,16 @@ export class CitizenUI {
         label.appendChild(text);
         groupEl.appendChild(label);
 
-        if (shouldAutoCheck) {
-          // ループ内で await せず、エラー時も他のレイヤーが止まらないようにする
-          loadTasks.push(
-            this.onToggleLayer(layer, true, { fitBounds: !autoLoadAdminOnly }).catch((err) => {
-              console.warn(`レイヤー初期読込失敗 (${layer.id}):`, err);
-              checkbox.checked = false;
-            }),
-          );
+        if (checkbox.checked) {
+          this.onToggleLayer(layer, true, { fitBounds: false }).catch((err) => {
+            console.warn(`初期レイヤー読込スキップ (${layer.fileName}):`, err);
+            checkbox.checked = false;
+          });
         }
       }
 
-      // 先にDOMへ追加してリストを即座に表示する
+      // まず画面にリストを描画する
       this.activeLayersEl.appendChild(groupEl);
-
-      // 並列でレイヤー読み込みを実行
-      await Promise.allSettled(loadTasks);
     };
 
     // 1. 結合済み PMTiles（都道府県／振興局単位）をスコープ（振興局 or 都道府県）ごとに描画
