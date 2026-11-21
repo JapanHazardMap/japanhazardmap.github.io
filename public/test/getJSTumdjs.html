@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>getJST 動作テスト</title>
+    <!-- ビルドしたファイルを読み込み -->
+    <script src="https://japanhazardmap.github.io/lib/getJST.umd.js?v=1.0.1"></script>
+  </head>
+  <body>
+    <pre id="output">同期中...</pre>
+    <script>
+      (async () => {
+        // 1. NICTのサーバーと時刻同期
+        await getJST.syncJST();
+
+        // 2. 同期結果と現在時刻を取得
+        const offset = getJST.getClockOffset();
+        const iso = getJST.getJSTISOString();
+        const compact = getJST.getJSTCptTs();
+
+        document.getElementById('output').textContent = JSON.stringify(
+          {
+            offset,
+            iso,
+            compact,
+          },
+          null,
+          2,
+        );
+      })();
+    </script>
+  </body>
+</html>
