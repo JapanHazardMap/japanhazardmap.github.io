@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "02",
     "fileName": "eStatBdy-2020_02384.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02384",
     "sizeBytes": 191625,
     "updatedAt": "2026-11-19T14:20:38.379Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_02000_1_02384.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02384",
-    "sizeBytes": 96968,
-    "updatedAt": "2026-11-13T21:04:02.544Z"
+    "sizeBytes": 96964,
+    "updatedAt": "2026-11-20T09:19:47.929Z"
   },
   {
     "id": "gsi_raw_pmtiles/_02000_2_02384",
@@ -43,8 +45,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_02000_2_02384.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02384",
-    "sizeBytes": 87699,
-    "updatedAt": "2026-11-13T21:11:06.818Z"
+    "sizeBytes": 87695,
+    "updatedAt": "2026-11-20T09:26:35.990Z"
   }
 ]

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "39",
     "fileName": "eStatBdy-2020_39344.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39344",
     "sizeBytes": 762981,
     "updatedAt": "2026-11-19T16:27:57.301Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_39000_1_39344.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39344",
     "sizeBytes": 121395,
     "updatedAt": "2026-11-14T05:29:53.418Z"

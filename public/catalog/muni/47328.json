@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "47",
     "fileName": "eStatBdy-2020_47328.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47328",
     "sizeBytes": 167674,
     "updatedAt": "2026-11-19T16:45:36.904Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_47000_1_47328.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47328",
     "sizeBytes": 33307,
     "updatedAt": "2026-11-14T07:18:18.421Z"

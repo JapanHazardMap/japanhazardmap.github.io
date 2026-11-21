@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "10",
     "fileName": "eStatBdy-2020_10207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10207",
     "sizeBytes": 379788,
     "updatedAt": "2026-11-19T14:49:25.800Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_10000_1_10207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10207",
     "sizeBytes": 74270,
     "updatedAt": "2026-11-13T22:50:31.868Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_10000_2_10207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10207",
     "sizeBytes": 136623,
     "updatedAt": "2026-11-13T22:56:47.379Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_10207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10207",
     "sizeBytes": 15122,
     "updatedAt": "2026-11-14T14:38:22.331Z"

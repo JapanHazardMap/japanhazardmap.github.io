@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "19",
     "fileName": "eStatBdy-2020_19213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19213",
     "sizeBytes": 629586,
     "updatedAt": "2026-11-19T15:43:57.295Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_1_19213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19213",
     "sizeBytes": 71680,
     "updatedAt": "2026-11-14T01:02:42.235Z"

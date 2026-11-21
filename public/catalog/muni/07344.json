@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "07",
     "fileName": "eStatBdy-2020_07344.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07344",
     "sizeBytes": 422621,
     "updatedAt": "2026-11-19T14:40:38.806Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_1_07344.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07344",
     "sizeBytes": 61527,
     "updatedAt": "2026-11-13T22:07:19.139Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_2_07344.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07344",
     "sizeBytes": 86105,
     "updatedAt": "2026-11-13T22:17:39.879Z"

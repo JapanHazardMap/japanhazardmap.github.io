@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "45",
     "fileName": "eStatBdy-2020_45209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45209",
     "sizeBytes": 681313,
     "updatedAt": "2026-11-19T16:41:00.326Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_1_45209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45209",
     "sizeBytes": 45291,
     "updatedAt": "2026-11-14T06:50:00.113Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_2_45209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45209",
     "sizeBytes": 23647,
     "updatedAt": "2026-11-14T06:55:03.026Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_45209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45209",
     "sizeBytes": 17010,
     "updatedAt": "2026-11-14T17:46:46.334Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_krs_45209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45209",
     "sizeBytes": 34364,
     "updatedAt": "2026-11-14T18:22:35.632Z"

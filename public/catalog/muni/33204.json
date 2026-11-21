@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "33",
     "fileName": "eStatBdy-2020_33204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33204",
     "sizeBytes": 551629,
     "updatedAt": "2026-11-19T16:16:38.589Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_1_33204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33204",
     "sizeBytes": 103737,
     "updatedAt": "2026-11-14T04:30:39.717Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_2_33204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33204",
     "sizeBytes": 184108,
     "updatedAt": "2026-11-14T04:36:36.340Z"

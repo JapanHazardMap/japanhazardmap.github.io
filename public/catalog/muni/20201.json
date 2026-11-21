@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "20",
     "fileName": "eStatBdy-2020_20201.pmtiles",
+    "isMerged": false,
     "municipalityCode": "20201",
     "sizeBytes": 2391840,
     "updatedAt": "2026-11-19T15:45:25.930Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_20000_1_20201.pmtiles",
+    "isMerged": false,
     "municipalityCode": "20201",
     "sizeBytes": 368629,
     "updatedAt": "2026-11-14T01:09:49.979Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_20000_2_20201.pmtiles",
+    "isMerged": false,
     "municipalityCode": "20201",
     "sizeBytes": 613646,
     "updatedAt": "2026-11-14T01:22:59.643Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_20201.pmtiles",
+    "isMerged": false,
     "municipalityCode": "20201",
     "sizeBytes": 66594,
     "updatedAt": "2026-11-14T15:00:50.431Z"

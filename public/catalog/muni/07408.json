@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "07",
     "fileName": "eStatBdy-2020_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 492562,
     "updatedAt": "2026-11-19T14:41:25.070Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_1_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 45026,
     "updatedAt": "2026-11-13T22:08:41.725Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_2_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 71815,
     "updatedAt": "2026-11-13T22:18:54.729Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 31007,
     "updatedAt": "2026-11-14T14:32:29.549Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_adt_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 19970,
     "updatedAt": "2026-11-14T17:58:17.263Z"
@@ -91,6 +96,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_azm_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 19512,
     "updatedAt": "2026-11-14T18:02:16.854Z"
@@ -107,6 +113,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_bnd_07408.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07408",
     "sizeBytes": 19452,
     "updatedAt": "2026-11-14T18:03:22.083Z"

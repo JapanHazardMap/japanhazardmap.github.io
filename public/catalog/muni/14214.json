@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "14",
     "fileName": "eStatBdy-2020_14214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "14214",
     "sizeBytes": 352108,
     "updatedAt": "2026-11-19T15:34:43.610Z"
@@ -27,6 +28,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_14214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "14214",
     "sizeBytes": 14058,
     "updatedAt": "2026-11-14T14:51:42.916Z"

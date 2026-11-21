@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "15",
     "fileName": "eStatBdy-2020_15217.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15217",
     "sizeBytes": 1083553,
     "updatedAt": "2026-11-19T15:37:28.555Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_1_15217.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15217",
     "sizeBytes": 87924,
     "updatedAt": "2026-11-14T00:30:34.705Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_2_15217.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15217",
     "sizeBytes": 329586,
     "updatedAt": "2026-11-14T00:38:11.240Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_15217.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15217",
     "sizeBytes": 10765,
     "updatedAt": "2026-11-14T14:55:20.829Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_nyk_15217.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15217",
     "sizeBytes": 4930,
     "updatedAt": "2026-11-14T18:28:43.326Z"

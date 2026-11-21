@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "13",
     "fileName": "eStatBdy-2020_13219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13219",
     "sizeBytes": 136188,
     "updatedAt": "2026-11-19T15:32:17.283Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_1_13219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13219",
     "sizeBytes": 53286,
     "updatedAt": "2026-11-13T23:54:33.760Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_2_13219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13219",
     "sizeBytes": 49405,
     "updatedAt": "2026-11-14T00:04:19.818Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_13219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13219",
     "sizeBytes": 10994,
     "updatedAt": "2026-11-14T14:48:59.224Z"

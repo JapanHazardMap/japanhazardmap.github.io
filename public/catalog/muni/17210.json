@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "17",
     "fileName": "eStatBdy-2020_17210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17210",
     "sizeBytes": 1893042,
     "updatedAt": "2026-11-19T15:41:18.624Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_1_17210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17210",
     "sizeBytes": 171779,
     "updatedAt": "2026-11-14T00:48:44.726Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_2_17210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17210",
     "sizeBytes": 123754,
     "updatedAt": "2026-11-14T00:52:17.902Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_17210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17210",
     "sizeBytes": 23386,
     "updatedAt": "2026-11-14T14:58:05.010Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_hks_17210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17210",
     "sizeBytes": 30632,
     "updatedAt": "2026-11-14T18:16:57.877Z"

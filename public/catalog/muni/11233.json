@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "11",
     "fileName": "eStatBdy-2020_11233.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11233",
     "sizeBytes": 375281,
     "updatedAt": "2026-11-19T14:53:14.559Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_11000_1_11233.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11233",
     "sizeBytes": 23700,
     "updatedAt": "2026-11-13T23:07:53.050Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_11000_2_11233.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11233",
     "sizeBytes": 37015,
     "updatedAt": "2026-11-13T23:20:16.499Z"

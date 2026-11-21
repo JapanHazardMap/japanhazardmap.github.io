@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "45",
     "fileName": "eStatBdy-2020_45204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45204",
     "sizeBytes": 1390734,
     "updatedAt": "2026-11-19T16:40:36.111Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_1_45204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45204",
     "sizeBytes": 164620,
     "updatedAt": "2026-11-14T06:48:49.915Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_2_45204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45204",
     "sizeBytes": 378927,
     "updatedAt": "2026-11-14T06:54:14.108Z"

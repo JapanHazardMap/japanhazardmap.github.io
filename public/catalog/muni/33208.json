@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "33",
     "fileName": "eStatBdy-2020_33208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33208",
     "sizeBytes": 899430,
     "updatedAt": "2026-11-19T16:16:50.368Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_1_33208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33208",
     "sizeBytes": 95364,
     "updatedAt": "2026-11-14T04:31:07.815Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_2_33208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33208",
     "sizeBytes": 148288,
     "updatedAt": "2026-11-14T04:37:00.649Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_33208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33208",
     "sizeBytes": 18678,
     "updatedAt": "2026-11-14T17:22:35.583Z"

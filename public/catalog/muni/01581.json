@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "01",
     "fileName": "eStatBdy-2020_01581.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01581",
     "sizeBytes": 608316,
     "updatedAt": "2026-11-19T14:11:48.278Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_1_01581.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01581",
-    "sizeBytes": 34609,
-    "updatedAt": "2026-11-13T20:20:16.680Z"
+    "sizeBytes": 34607,
+    "updatedAt": "2026-11-20T08:41:39.581Z"
   },
   {
     "id": "gsi_raw_pmtiles/_01000_2_01581",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_2_01581.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01581",
-    "sizeBytes": 42397,
-    "updatedAt": "2026-11-13T20:52:29.116Z"
+    "sizeBytes": 42394,
+    "updatedAt": "2026-11-20T09:09:39.236Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_01581",
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_01581.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01581",
     "sizeBytes": 17272,
     "updatedAt": "2026-11-14T14:18:32.670Z"

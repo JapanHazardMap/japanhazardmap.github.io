@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "37",
     "fileName": "eStatBdy-2020_37322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37322",
     "sizeBytes": 356224,
     "updatedAt": "2026-11-19T16:24:35.747Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_37000_1_37322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37322",
     "sizeBytes": 35376,
     "updatedAt": "2026-11-14T05:13:06.283Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_37000_2_37322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37322",
     "sizeBytes": 81505,
     "updatedAt": "2026-11-14T05:16:13.151Z"

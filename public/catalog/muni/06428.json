@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "06",
     "fileName": "eStatBdy-2020_06428.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06428",
     "sizeBytes": 781804,
     "updatedAt": "2026-11-19T14:37:35.123Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_06000_1_06428.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06428",
     "sizeBytes": 74845,
     "updatedAt": "2026-11-13T21:56:38.604Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_06000_2_06428.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06428",
     "sizeBytes": 280991,
     "updatedAt": "2026-11-13T22:03:24.038Z"

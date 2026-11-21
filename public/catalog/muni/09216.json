@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "09",
     "fileName": "eStatBdy-2020_09216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09216",
     "sizeBytes": 417961,
     "updatedAt": "2026-11-19T14:47:49.789Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_09000_1_09216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09216",
     "sizeBytes": 58961,
     "updatedAt": "2026-11-13T22:42:18.469Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_09000_2_09216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09216",
     "sizeBytes": 93468,
     "updatedAt": "2026-11-13T22:46:59.293Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "19",
     "fileName": "eStatBdy-2020_19430.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19430",
     "sizeBytes": 333487,
     "updatedAt": "2026-11-19T15:44:21.701Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_1_19430.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19430",
     "sizeBytes": 66292,
     "updatedAt": "2026-11-14T01:04:42.414Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_2_19430.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19430",
     "sizeBytes": 69365,
     "updatedAt": "2026-11-14T01:08:57.453Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_19430.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19430",
     "sizeBytes": 33914,
     "updatedAt": "2026-11-14T15:00:49.728Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_fji_19430.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19430",
     "sizeBytes": 37823,
     "updatedAt": "2026-11-14T18:07:38.691Z"

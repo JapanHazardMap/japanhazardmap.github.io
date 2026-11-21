@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "47",
     "fileName": "eStatBdy-2020_47357.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47357",
     "sizeBytes": 80003,
     "updatedAt": "2026-11-19T16:45:43.103Z"
@@ -27,6 +28,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_47357.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47357",
     "sizeBytes": 9233,
     "updatedAt": "2026-11-14T17:50:01.529Z"

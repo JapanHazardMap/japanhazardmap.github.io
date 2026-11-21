@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "42",
     "fileName": "eStatBdy-2020_42210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "42210",
     "sizeBytes": 1108335,
     "updatedAt": "2026-11-19T16:34:39.775Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_42000_1_42210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "42210",
     "sizeBytes": 81057,
     "updatedAt": "2026-11-14T06:15:29.486Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_42000_2_42210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "42210",
     "sizeBytes": 125097,
     "updatedAt": "2026-11-14T06:19:45.604Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_42210.pmtiles",
+    "isMerged": false,
     "municipalityCode": "42210",
     "sizeBytes": 13581,
     "updatedAt": "2026-11-14T17:40:42.950Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "33",
     "fileName": "eStatBdy-2020_33101.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33101",
     "sizeBytes": 1907692,
     "updatedAt": "2026-11-19T16:16:21.300Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_1_33101.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33101",
     "sizeBytes": 184403,
     "updatedAt": "2026-11-14T04:29:37.003Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_33000_2_33101.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33101",
     "sizeBytes": 252345,
     "updatedAt": "2026-11-14T04:35:32.250Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_33101.pmtiles",
+    "isMerged": false,
     "municipalityCode": "33101",
     "sizeBytes": 40445,
     "updatedAt": "2026-11-14T17:21:59.017Z"

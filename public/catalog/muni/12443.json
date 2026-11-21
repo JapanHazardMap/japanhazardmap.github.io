@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "12",
     "fileName": "eStatBdy-2020_12443.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12443",
     "sizeBytes": 138171,
     "updatedAt": "2026-11-19T15:30:11.071Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_12000_1_12443.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12443",
     "sizeBytes": 11181,
     "updatedAt": "2026-11-13T23:35:59.437Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_12000_2_12443.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12443",
     "sizeBytes": 13179,
     "updatedAt": "2026-11-13T23:46:41.717Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_12443.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12443",
     "sizeBytes": 12391,
     "updatedAt": "2026-11-14T14:46:34.812Z"

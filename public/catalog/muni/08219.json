@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "08",
     "fileName": "eStatBdy-2020_08219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08219",
     "sizeBytes": 350043,
     "updatedAt": "2026-11-19T14:44:30.226Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_08000_1_08219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08219",
     "sizeBytes": 40751,
     "updatedAt": "2026-11-13T22:26:40.173Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_08000_2_08219.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08219",
     "sizeBytes": 138289,
     "updatedAt": "2026-11-13T22:34:38.503Z"

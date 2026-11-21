@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "08",
     "fileName": "eStatBdy-2020_08215.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08215",
     "sizeBytes": 596155,
     "updatedAt": "2026-11-19T14:44:22.426Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_08000_1_08215.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08215",
     "sizeBytes": 73068,
     "updatedAt": "2026-11-13T22:26:06.060Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_08000_2_08215.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08215",
     "sizeBytes": 83166,
     "updatedAt": "2026-11-13T22:33:59.170Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_08215.pmtiles",
+    "isMerged": false,
     "municipalityCode": "08215",
     "sizeBytes": 32170,
     "updatedAt": "2026-11-14T14:34:37.575Z"

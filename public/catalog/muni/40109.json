@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "40",
     "fileName": "eStatBdy-2020_40109.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40109",
     "sizeBytes": 1223920,
     "updatedAt": "2026-11-19T16:29:41.289Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_40000_1_40109.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40109",
     "sizeBytes": 205931,
     "updatedAt": "2026-11-14T05:41:26.554Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_40000_2_40109.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40109",
     "sizeBytes": 296012,
     "updatedAt": "2026-11-14T05:54:37.120Z"

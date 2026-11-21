@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "35",
     "fileName": "eStatBdy-2020_35208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "35208",
     "sizeBytes": 3029092,
     "updatedAt": "2026-11-19T16:22:05.930Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_35000_1_35208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "35208",
     "sizeBytes": 37970,
     "updatedAt": "2026-11-14T04:55:42.574Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_35000_2_35208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "35208",
     "sizeBytes": 301755,
     "updatedAt": "2026-11-14T04:59:38.895Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_35208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "35208",
     "sizeBytes": 25263,
     "updatedAt": "2026-11-14T17:28:31.287Z"

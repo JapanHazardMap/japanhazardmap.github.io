@@ -1,5 +1,21 @@
 [
   {
+    "id": "ksj_raw_pmtiles/A33_25_25Polygon",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_25Polygon",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles/full/18/A33_25_25Polygon.pmtiles",
+    "repoName": "ksj_raw_pmtiles",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "18",
+    "fileName": "A33_25_25Polygon.pmtiles",
+    "isMerged": true,
+    "sizeBytes": 40394805,
+    "updatedAt": "2026-11-21T01:06:35.408Z"
+  },
+  {
     "id": "eStatBdy_raw_pmtiles_chuuhou/eStatBdy-2020_18442",
     "name": "[chuuhou] eStatBdy-2020_18442",
     "titleJa": "chuuhou",
@@ -11,6 +27,7 @@
     "category": "full",
     "regionCode": "18",
     "fileName": "eStatBdy-2020_18442.pmtiles",
+    "isMerged": false,
     "municipalityCode": "18442",
     "sizeBytes": 397145,
     "updatedAt": "2026-11-19T15:42:50.552Z"
@@ -27,6 +44,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_18000_1_18442.pmtiles",
+    "isMerged": false,
     "municipalityCode": "18442",
     "sizeBytes": 27613,
     "updatedAt": "2026-11-14T00:56:39.161Z"
@@ -43,6 +61,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_18000_2_18442.pmtiles",
+    "isMerged": false,
     "municipalityCode": "18442",
     "sizeBytes": 33897,
     "updatedAt": "2026-11-14T01:00:01.553Z"

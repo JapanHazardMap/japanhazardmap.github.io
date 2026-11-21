@@ -1,5 +1,21 @@
 [
   {
+    "id": "ksj_raw_pmtiles/A33_25_30Polygon",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_30Polygon",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles/full/27/A33_25_30Polygon.pmtiles",
+    "repoName": "ksj_raw_pmtiles",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "27",
+    "fileName": "A33_25_30Polygon.pmtiles",
+    "isMerged": true,
+    "sizeBytes": 140805877,
+    "updatedAt": "2026-11-21T01:36:10.138Z"
+  },
+  {
     "id": "eStatBdy_raw_pmtiles_chuuhou/eStatBdy-2020_27111",
     "name": "[chuuhou] eStatBdy-2020_27111",
     "titleJa": "chuuhou",
@@ -11,6 +27,7 @@
     "category": "full",
     "regionCode": "27",
     "fileName": "eStatBdy-2020_27111.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27111",
     "sizeBytes": 148670,
     "updatedAt": "2026-11-19T16:04:12.498Z"
@@ -27,9 +44,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_1_27111.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27111",
-    "sizeBytes": 31443,
-    "updatedAt": "2026-11-14T03:04:15.143Z"
+    "sizeBytes": 31441,
+    "updatedAt": "2026-11-21T01:47:21.904Z"
   },
   {
     "id": "gsi_raw_pmtiles/_27000_2_27111",
@@ -43,9 +61,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_2_27111.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27111",
-    "sizeBytes": 142205,
-    "updatedAt": "2026-11-14T03:17:22.294Z"
+    "sizeBytes": 141901,
+    "updatedAt": "2026-11-21T02:00:16.163Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_27111",
@@ -59,40 +78,9 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_27111.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27111",
     "sizeBytes": 11670,
     "updatedAt": "2026-11-14T15:25:14.380Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_20_25_27_8606040002_20_27111",
-    "name": "[A31a_kansai] A31a_20_25_27_8606040002_20_27111",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_20_25_27_8606040002_20_27111.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_20_25_27_8606040002_20_27111.pmtiles",
-    "municipalityCode": "27111",
-    "sizeBytes": 275171,
-    "updatedAt": "2026-11-15T23:42:07.638Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_30_25_27_8606040002_20_27111",
-    "name": "[A31a_kansai] A31a_30_25_27_8606040002_20_27111",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_30_25_27_8606040002_20_27111.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_30_25_27_8606040002_20_27111.pmtiles",
-    "municipalityCode": "27111",
-    "sizeBytes": 91924,
-    "updatedAt": "2026-11-15T23:57:15.524Z"
   }
 ]

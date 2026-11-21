@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "15",
     "fileName": "eStatBdy-2020_15222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15222",
     "sizeBytes": 4354817,
     "updatedAt": "2026-11-19T15:37:55.090Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_1_15222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15222",
     "sizeBytes": 336277,
     "updatedAt": "2026-11-14T00:31:04.010Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_2_15222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15222",
     "sizeBytes": 679532,
     "updatedAt": "2026-11-14T00:38:48.225Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_15222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15222",
     "sizeBytes": 19045,
     "updatedAt": "2026-11-14T14:55:39.512Z"

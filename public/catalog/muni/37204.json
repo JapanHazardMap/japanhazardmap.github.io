@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "37",
     "fileName": "eStatBdy-2020_37204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37204",
     "sizeBytes": 215270,
     "updatedAt": "2026-11-19T16:24:23.184Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_37000_1_37204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37204",
     "sizeBytes": 33135,
     "updatedAt": "2026-11-14T05:12:11.658Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_37000_2_37204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "37204",
     "sizeBytes": 34757,
     "updatedAt": "2026-11-14T05:15:16.427Z"

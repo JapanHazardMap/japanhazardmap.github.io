@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "19",
     "fileName": "eStatBdy-2020_19346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19346",
     "sizeBytes": 259747,
     "updatedAt": "2026-11-19T15:44:00.707Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_1_19346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19346",
     "sizeBytes": 111766,
     "updatedAt": "2026-11-14T01:03:03.034Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_2_19346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19346",
     "sizeBytes": 152925,
     "updatedAt": "2026-11-14T01:07:22.964Z"

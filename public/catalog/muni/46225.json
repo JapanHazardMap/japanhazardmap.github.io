@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "46",
     "fileName": "eStatBdy-2020_46225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46225",
     "sizeBytes": 575401,
     "updatedAt": "2026-11-19T16:43:26.803Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_1_46225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46225",
     "sizeBytes": 127197,
     "updatedAt": "2026-11-14T07:01:23.925Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_2_46225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46225",
     "sizeBytes": 178945,
     "updatedAt": "2026-11-14T07:09:50.685Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_46225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46225",
     "sizeBytes": 24869,
     "updatedAt": "2026-11-14T17:48:34.949Z"

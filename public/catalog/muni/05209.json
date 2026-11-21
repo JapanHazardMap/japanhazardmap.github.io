@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "05",
     "fileName": "eStatBdy-2020_05209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05209",
     "sizeBytes": 708673,
     "updatedAt": "2026-11-19T14:32:10.283Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_05000_1_05209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05209",
     "sizeBytes": 61971,
     "updatedAt": "2026-11-13T21:43:12.478Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_05000_2_05209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05209",
     "sizeBytes": 110861,
     "updatedAt": "2026-11-13T21:48:00.086Z"
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_aty_05209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05209",
     "sizeBytes": 17097,
     "updatedAt": "2026-11-14T18:01:35.595Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_twd_05209.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05209",
     "sizeBytes": 33419,
     "updatedAt": "2026-11-14T18:34:36.103Z"

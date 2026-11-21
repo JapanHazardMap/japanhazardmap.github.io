@@ -1,5 +1,21 @@
 [
   {
+    "id": "ksj_raw_pmtiles/A33_25_30Polygon",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_30Polygon",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles/full/27/A33_25_30Polygon.pmtiles",
+    "repoName": "ksj_raw_pmtiles",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "27",
+    "fileName": "A33_25_30Polygon.pmtiles",
+    "isMerged": true,
+    "sizeBytes": 140805877,
+    "updatedAt": "2026-11-21T01:36:10.138Z"
+  },
+  {
     "id": "eStatBdy_raw_pmtiles_chuuhou/eStatBdy-2020_27106",
     "name": "[chuuhou] eStatBdy-2020_27106",
     "titleJa": "chuuhou",
@@ -11,6 +27,7 @@
     "category": "full",
     "regionCode": "27",
     "fileName": "eStatBdy-2020_27106.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27106",
     "sizeBytes": 145710,
     "updatedAt": "2026-11-19T16:04:08.085Z"
@@ -27,9 +44,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_1_27106.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27106",
-    "sizeBytes": 25119,
-    "updatedAt": "2026-11-14T03:03:40.084Z"
+    "sizeBytes": 25115,
+    "updatedAt": "2026-11-21T01:46:43.796Z"
   },
   {
     "id": "gsi_raw_pmtiles/_27000_2_27106",
@@ -43,9 +61,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_2_27106.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27106",
-    "sizeBytes": 109973,
-    "updatedAt": "2026-11-14T03:16:29.997Z"
+    "sizeBytes": 108184,
+    "updatedAt": "2026-11-21T01:59:32.274Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_27106",
@@ -59,6 +78,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_27106.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27106",
     "sizeBytes": 16614,
     "updatedAt": "2026-11-14T15:24:56.517Z"

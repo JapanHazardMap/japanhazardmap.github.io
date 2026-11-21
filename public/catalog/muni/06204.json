@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "06",
     "fileName": "eStatBdy-2020_06204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06204",
     "sizeBytes": 2377805,
     "updatedAt": "2026-11-19T14:35:15.744Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_06000_1_06204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06204",
     "sizeBytes": 162055,
     "updatedAt": "2026-11-13T21:52:01.703Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_06000_2_06204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06204",
     "sizeBytes": 613733,
     "updatedAt": "2026-11-13T21:58:19.702Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_06204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06204",
     "sizeBytes": 11406,
     "updatedAt": "2026-11-14T14:30:18.059Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_chk_06204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "06204",
     "sizeBytes": 8245,
     "updatedAt": "2026-11-14T18:04:19.978Z"

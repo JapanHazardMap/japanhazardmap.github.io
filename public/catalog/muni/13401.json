@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "13",
     "fileName": "eStatBdy-2020_13401.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13401",
     "sizeBytes": 194595,
     "updatedAt": "2026-11-19T15:32:46.909Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_1_13401.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13401",
     "sizeBytes": 37492,
     "updatedAt": "2026-11-13T23:57:17.894Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_2_13401.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13401",
     "sizeBytes": 7287,
     "updatedAt": "2026-11-14T00:07:03.919Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_13401.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13401",
     "sizeBytes": 13429,
     "updatedAt": "2026-11-14T14:49:17.162Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_htj_13401.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13401",
     "sizeBytes": 15003,
     "updatedAt": "2026-11-14T18:17:32.455Z"

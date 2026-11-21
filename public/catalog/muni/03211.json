@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "03",
     "fileName": "eStatBdy-2020_03211.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03211",
     "sizeBytes": 846229,
     "updatedAt": "2026-11-19T14:24:04.900Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_1_03211.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03211",
-    "sizeBytes": 48288,
-    "updatedAt": "2026-11-13T21:16:11.285Z"
+    "sizeBytes": 48285,
+    "updatedAt": "2026-11-20T09:30:57.535Z"
   },
   {
     "id": "gsi_raw_pmtiles/_03000_2_03211",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_2_03211.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03211",
-    "sizeBytes": 241451,
-    "updatedAt": "2026-11-13T21:22:25.130Z"
+    "sizeBytes": 241447,
+    "updatedAt": "2026-11-20T09:36:22.445Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_03211",
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_03211.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03211",
     "sizeBytes": 93067,
     "updatedAt": "2026-11-14T14:24:03.058Z"

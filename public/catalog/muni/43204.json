@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "43",
     "fileName": "eStatBdy-2020_43204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "43204",
     "sizeBytes": 316794,
     "updatedAt": "2026-11-19T16:36:22.574Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_43000_1_43204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "43204",
     "sizeBytes": 38257,
     "updatedAt": "2026-11-14T06:23:37.670Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_43000_2_43204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "43204",
     "sizeBytes": 27565,
     "updatedAt": "2026-11-14T06:32:22.153Z"

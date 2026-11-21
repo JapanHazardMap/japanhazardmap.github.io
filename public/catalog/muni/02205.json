@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "02",
     "fileName": "eStatBdy-2020_02205.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02205",
     "sizeBytes": 1475849,
     "updatedAt": "2026-11-19T14:19:24.886Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_02000_1_02205.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02205",
-    "sizeBytes": 211340,
-    "updatedAt": "2026-11-13T21:01:26.739Z"
+    "sizeBytes": 211338,
+    "updatedAt": "2026-11-20T09:17:36.991Z"
   },
   {
     "id": "gsi_raw_pmtiles/_02000_2_02205",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_02000_2_02205.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02205",
-    "sizeBytes": 257375,
-    "updatedAt": "2026-11-13T21:08:30.383Z"
+    "sizeBytes": 257370,
+    "updatedAt": "2026-11-20T09:24:22.310Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_02205",
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_02205.pmtiles",
+    "isMerged": false,
     "municipalityCode": "02205",
     "sizeBytes": 24041,
     "updatedAt": "2026-11-14T14:20:53.514Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "38",
     "fileName": "eStatBdy-2020_38204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38204",
     "sizeBytes": 529633,
     "updatedAt": "2026-11-19T16:25:31.803Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_38000_1_38204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38204",
     "sizeBytes": 126622,
     "updatedAt": "2026-11-14T05:18:54.283Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_38000_2_38204.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38204",
     "sizeBytes": 210228,
     "updatedAt": "2026-11-14T05:23:03.313Z"

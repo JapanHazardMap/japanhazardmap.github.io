@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "13",
     "fileName": "eStatBdy-2020_13421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13421",
     "sizeBytes": 652986,
     "updatedAt": "2026-11-19T15:32:52.142Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_1_13421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13421",
     "sizeBytes": 22336,
     "updatedAt": "2026-11-13T23:57:35.910Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_2_13421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13421",
     "sizeBytes": 24561,
     "updatedAt": "2026-11-14T00:07:16.444Z"

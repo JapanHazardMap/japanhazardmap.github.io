@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "14",
     "fileName": "eStatBdy-2020_14117.pmtiles",
+    "isMerged": false,
     "municipalityCode": "14117",
     "sizeBytes": 341725,
     "updatedAt": "2026-11-19T15:33:56.073Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_14000_1_14117.pmtiles",
+    "isMerged": false,
     "municipalityCode": "14117",
     "sizeBytes": 61832,
     "updatedAt": "2026-11-14T00:10:49.291Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_14000_2_14117.pmtiles",
+    "isMerged": false,
     "municipalityCode": "14117",
     "sizeBytes": 145606,
     "updatedAt": "2026-11-14T00:20:24.254Z"

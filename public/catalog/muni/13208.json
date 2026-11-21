@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "13",
     "fileName": "eStatBdy-2020_13208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13208",
     "sizeBytes": 322422,
     "updatedAt": "2026-11-19T15:32:06.541Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_1_13208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13208",
     "sizeBytes": 84132,
     "updatedAt": "2026-11-13T23:53:14.179Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_2_13208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13208",
     "sizeBytes": 37504,
     "updatedAt": "2026-11-14T00:02:58.443Z"

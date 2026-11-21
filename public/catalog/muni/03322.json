@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "03",
     "fileName": "eStatBdy-2020_03322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03322",
     "sizeBytes": 340916,
     "updatedAt": "2026-11-19T14:25:07.508Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_1_03322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03322",
-    "sizeBytes": 93686,
-    "updatedAt": "2026-11-13T21:17:49.520Z"
+    "sizeBytes": 93682,
+    "updatedAt": "2026-11-20T09:32:23.710Z"
   },
   {
     "id": "gsi_raw_pmtiles/_03000_2_03322",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_2_03322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03322",
-    "sizeBytes": 78118,
-    "updatedAt": "2026-11-13T21:24:01.721Z"
+    "sizeBytes": 78113,
+    "updatedAt": "2026-11-20T09:37:43.187Z"
   },
   {
     "id": "gsi_raw_pmtiles/vdpf_iwt_03322",
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_iwt_03322.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03322",
     "sizeBytes": 7771,
     "updatedAt": "2026-11-14T18:19:09.569Z"

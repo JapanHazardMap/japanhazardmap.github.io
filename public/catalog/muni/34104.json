@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "34",
     "fileName": "eStatBdy-2020_34104.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34104",
     "sizeBytes": 486488,
     "updatedAt": "2026-11-19T16:18:33.726Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_34000_1_34104.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34104",
     "sizeBytes": 67239,
     "updatedAt": "2026-11-14T04:42:24.157Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_34000_2_34104.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34104",
     "sizeBytes": 192780,
     "updatedAt": "2026-11-14T04:48:26.965Z"

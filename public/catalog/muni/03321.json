@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "03",
     "fileName": "eStatBdy-2020_03321.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03321",
     "sizeBytes": 987326,
     "updatedAt": "2026-11-19T14:25:04.772Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_1_03321.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03321",
-    "sizeBytes": 99363,
-    "updatedAt": "2026-11-13T21:17:30.746Z"
+    "sizeBytes": 99360,
+    "updatedAt": "2026-11-20T09:32:08.581Z"
   },
   {
     "id": "gsi_raw_pmtiles/_03000_2_03321",
@@ -43,8 +45,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_03000_2_03321.pmtiles",
+    "isMerged": false,
     "municipalityCode": "03321",
-    "sizeBytes": 134221,
-    "updatedAt": "2026-11-13T21:23:47.433Z"
+    "sizeBytes": 134220,
+    "updatedAt": "2026-11-20T09:37:29.619Z"
   }
 ]

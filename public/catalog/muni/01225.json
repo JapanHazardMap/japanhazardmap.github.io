@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "01",
     "fileName": "eStatBdy-2020_01225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01225",
     "sizeBytes": 569723,
     "updatedAt": "2026-11-19T14:01:11.057Z"
@@ -27,8 +28,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_2_01225.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01225",
-    "sizeBytes": 67104,
-    "updatedAt": "2026-11-13T20:34:17.963Z"
+    "sizeBytes": 67101,
+    "updatedAt": "2026-11-20T08:54:16.308Z"
   }
 ]

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "40",
     "fileName": "eStatBdy-2020_40610.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40610",
     "sizeBytes": 170398,
     "updatedAt": "2026-11-19T16:31:46.827Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_40000_1_40610.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40610",
     "sizeBytes": 32486,
     "updatedAt": "2026-11-14T05:51:11.242Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_40000_2_40610.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40610",
     "sizeBytes": 115195,
     "updatedAt": "2026-11-14T06:04:37.797Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_40610.pmtiles",
+    "isMerged": false,
     "municipalityCode": "40610",
     "sizeBytes": 12207,
     "updatedAt": "2026-11-14T17:37:57.826Z"

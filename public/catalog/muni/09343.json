@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "09",
     "fileName": "eStatBdy-2020_09343.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09343",
     "sizeBytes": 654997,
     "updatedAt": "2026-11-19T14:47:56.834Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_09000_1_09343.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09343",
     "sizeBytes": 19592,
     "updatedAt": "2026-11-13T22:42:54.687Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_09000_2_09343.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09343",
     "sizeBytes": 28720,
     "updatedAt": "2026-11-13T22:47:28.883Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_09343.pmtiles",
+    "isMerged": false,
     "municipalityCode": "09343",
     "sizeBytes": 16324,
     "updatedAt": "2026-11-14T14:37:05.900Z"

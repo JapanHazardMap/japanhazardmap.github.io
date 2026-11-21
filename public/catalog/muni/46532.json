@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "46",
     "fileName": "eStatBdy-2020_46532.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46532",
     "sizeBytes": 196615,
     "updatedAt": "2026-11-19T16:44:15.367Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_1_46532.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46532",
     "sizeBytes": 55341,
     "updatedAt": "2026-11-14T07:04:49.652Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_2_46532.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46532",
     "sizeBytes": 87454,
     "updatedAt": "2026-11-14T07:13:20.871Z"

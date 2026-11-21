@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "04",
     "fileName": "eStatBdy-2020_04421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04421",
     "sizeBytes": 359341,
     "updatedAt": "2026-11-19T14:29:52.563Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_1_04421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04421",
     "sizeBytes": 34710,
-    "updatedAt": "2026-11-13T21:32:59.750Z"
+    "updatedAt": "2026-11-20T09:44:35.575Z"
   },
   {
     "id": "gsi_raw_pmtiles/_04000_2_04421",
@@ -43,8 +45,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_2_04421.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04421",
-    "sizeBytes": 68686,
-    "updatedAt": "2026-11-13T21:40:07.026Z"
+    "sizeBytes": 68684,
+    "updatedAt": "2026-11-20T09:50:27.678Z"
   }
 ]

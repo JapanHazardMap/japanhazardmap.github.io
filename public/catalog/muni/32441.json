@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "32",
     "fileName": "eStatBdy-2020_32441.pmtiles",
+    "isMerged": false,
     "municipalityCode": "32441",
     "sizeBytes": 234880,
     "updatedAt": "2026-11-19T16:15:19.480Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_32000_1_32441.pmtiles",
+    "isMerged": false,
     "municipalityCode": "32441",
     "sizeBytes": 53925,
     "updatedAt": "2026-11-14T04:23:44.575Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_32000_2_32441.pmtiles",
+    "isMerged": false,
     "municipalityCode": "32441",
     "sizeBytes": 74597,
     "updatedAt": "2026-11-14T04:27:35.528Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_32441.pmtiles",
+    "isMerged": false,
     "municipalityCode": "32441",
     "sizeBytes": 13416,
     "updatedAt": "2026-11-14T17:21:21.044Z"

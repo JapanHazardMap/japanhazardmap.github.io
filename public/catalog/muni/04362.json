@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "04",
     "fileName": "eStatBdy-2020_04362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04362",
     "sizeBytes": 244356,
     "updatedAt": "2026-11-19T14:29:38.016Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_1_04362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04362",
-    "sizeBytes": 22204,
-    "updatedAt": "2026-11-13T21:32:05.718Z"
+    "sizeBytes": 22202,
+    "updatedAt": "2026-11-20T09:44:04.795Z"
   },
   {
     "id": "gsi_raw_pmtiles/_04000_2_04362",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_2_04362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04362",
-    "sizeBytes": 39513,
-    "updatedAt": "2026-11-13T21:39:28.701Z"
+    "sizeBytes": 39512,
+    "updatedAt": "2026-11-20T09:49:55.119Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_04362",
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_04362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04362",
     "sizeBytes": 12862,
     "updatedAt": "2026-11-14T14:27:18.347Z"

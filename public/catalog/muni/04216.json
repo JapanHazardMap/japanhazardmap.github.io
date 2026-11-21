@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "04",
     "fileName": "eStatBdy-2020_04216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04216",
     "sizeBytes": 344170,
     "updatedAt": "2026-11-19T14:28:58.997Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_1_04216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04216",
-    "sizeBytes": 42934,
-    "updatedAt": "2026-11-13T21:29:50.855Z"
+    "sizeBytes": 42932,
+    "updatedAt": "2026-11-20T09:42:36.522Z"
   },
   {
     "id": "gsi_raw_pmtiles/_04000_2_04216",
@@ -43,8 +45,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_2_04216.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04216",
-    "sizeBytes": 60477,
-    "updatedAt": "2026-11-13T21:38:12.677Z"
+    "sizeBytes": 60473,
+    "updatedAt": "2026-11-20T09:48:48.892Z"
   }
 ]

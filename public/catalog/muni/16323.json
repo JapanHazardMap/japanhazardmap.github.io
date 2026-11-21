@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "16",
     "fileName": "eStatBdy-2020_16323.pmtiles",
+    "isMerged": false,
     "municipalityCode": "16323",
     "sizeBytes": 809873,
     "updatedAt": "2026-11-19T15:40:01.995Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_16000_1_16323.pmtiles",
+    "isMerged": false,
     "municipalityCode": "16323",
     "sizeBytes": 75677,
     "updatedAt": "2026-11-14T00:43:32.934Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_16000_2_16323.pmtiles",
+    "isMerged": false,
     "municipalityCode": "16323",
     "sizeBytes": 76006,
     "updatedAt": "2026-11-14T00:46:28.967Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_16323.pmtiles",
+    "isMerged": false,
     "municipalityCode": "16323",
     "sizeBytes": 18507,
     "updatedAt": "2026-11-14T14:57:28.751Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_mdg_16323.pmtiles",
+    "isMerged": false,
     "municipalityCode": "16323",
     "sizeBytes": 16799,
     "updatedAt": "2026-11-14T18:25:45.181Z"

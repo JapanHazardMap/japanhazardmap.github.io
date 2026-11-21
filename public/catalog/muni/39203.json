@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "39",
     "fileName": "eStatBdy-2020_39203.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39203",
     "sizeBytes": 600579,
     "updatedAt": "2026-11-19T16:27:11.075Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_39000_1_39203.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39203",
     "sizeBytes": 37763,
     "updatedAt": "2026-11-14T05:26:58.555Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_39000_2_39203.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39203",
     "sizeBytes": 233257,
     "updatedAt": "2026-11-14T05:33:37.389Z"

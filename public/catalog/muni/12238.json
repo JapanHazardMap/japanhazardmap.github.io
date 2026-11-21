@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "12",
     "fileName": "eStatBdy-2020_12238.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12238",
     "sizeBytes": 553110,
     "updatedAt": "2026-11-19T15:29:43.363Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_12000_1_12238.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12238",
     "sizeBytes": 40395,
     "updatedAt": "2026-11-13T23:33:35.604Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_12000_2_12238.pmtiles",
+    "isMerged": false,
     "municipalityCode": "12238",
     "sizeBytes": 98231,
     "updatedAt": "2026-11-13T23:44:14.866Z"

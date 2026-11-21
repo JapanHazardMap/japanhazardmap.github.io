@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "05",
     "fileName": "eStatBdy-2020_05361.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05361",
     "sizeBytes": 380741,
     "updatedAt": "2026-11-19T14:33:40.739Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_05000_1_05361.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05361",
     "sizeBytes": 40729,
     "updatedAt": "2026-11-13T21:45:05.413Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_05000_2_05361.pmtiles",
+    "isMerged": false,
     "municipalityCode": "05361",
     "sizeBytes": 59614,
     "updatedAt": "2026-11-13T21:50:01.539Z"

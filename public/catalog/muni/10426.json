@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "10",
     "fileName": "eStatBdy-2020_10426.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10426",
     "sizeBytes": 87125,
     "updatedAt": "2026-11-19T14:50:17.937Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_10000_1_10426.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10426",
     "sizeBytes": 6598,
     "updatedAt": "2026-11-13T22:53:03.509Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_10000_2_10426.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10426",
     "sizeBytes": 25722,
     "updatedAt": "2026-11-13T22:59:20.144Z"
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_kst_10426.pmtiles",
+    "isMerged": false,
     "municipalityCode": "10426",
     "sizeBytes": 20202,
     "updatedAt": "2026-11-14T18:23:21.793Z"

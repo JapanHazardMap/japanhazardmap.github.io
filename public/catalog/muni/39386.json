@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "39",
     "fileName": "eStatBdy-2020_39386.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39386",
     "sizeBytes": 880239,
     "updatedAt": "2026-11-19T16:28:08.481Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_39000_1_39386.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39386",
     "sizeBytes": 179138,
     "updatedAt": "2026-11-14T05:30:29.812Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_39000_2_39386.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39386",
     "sizeBytes": 129722,
     "updatedAt": "2026-11-14T05:36:54.596Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_39386.pmtiles",
+    "isMerged": false,
     "municipalityCode": "39386",
     "sizeBytes": 17759,
     "updatedAt": "2026-11-14T17:35:07.634Z"

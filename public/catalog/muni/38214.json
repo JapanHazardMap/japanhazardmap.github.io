@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "38",
     "fileName": "eStatBdy-2020_38214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38214",
     "sizeBytes": 1352064,
     "updatedAt": "2026-11-19T16:26:08.477Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_38000_1_38214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38214",
     "sizeBytes": 205177,
     "updatedAt": "2026-11-14T05:19:59.158Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_38000_2_38214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38214",
     "sizeBytes": 256894,
     "updatedAt": "2026-11-14T05:24:14.775Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_38214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "38214",
     "sizeBytes": 20900,
     "updatedAt": "2026-11-14T17:33:15.689Z"

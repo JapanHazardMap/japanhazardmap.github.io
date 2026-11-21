@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "07",
     "fileName": "eStatBdy-2020_07362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07362",
     "sizeBytes": 586586,
     "updatedAt": "2026-11-19T14:40:43.661Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_1_07362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07362",
     "sizeBytes": 11765,
     "updatedAt": "2026-11-13T22:07:30.365Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_07000_2_07362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07362",
     "sizeBytes": 13234,
     "updatedAt": "2026-11-13T22:17:41.178Z"
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_nas_07362.pmtiles",
+    "isMerged": false,
     "municipalityCode": "07362",
     "sizeBytes": 8511,
     "updatedAt": "2026-11-14T18:26:29.700Z"

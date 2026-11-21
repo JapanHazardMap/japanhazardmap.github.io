@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "34",
     "fileName": "eStatBdy-2020_34431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34431",
     "sizeBytes": 284789,
     "updatedAt": "2026-11-19T16:20:22.766Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_34000_1_34431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34431",
     "sizeBytes": 84031,
     "updatedAt": "2026-11-14T04:46:55.783Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_34000_2_34431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34431",
     "sizeBytes": 112352,
     "updatedAt": "2026-11-14T04:53:15.138Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_34431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "34431",
     "sizeBytes": 12201,
     "updatedAt": "2026-11-14T17:27:31.818Z"

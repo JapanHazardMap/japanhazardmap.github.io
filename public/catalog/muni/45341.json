@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "45",
     "fileName": "eStatBdy-2020_45341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45341",
     "sizeBytes": 228758,
     "updatedAt": "2026-11-19T16:41:04.020Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_1_45341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45341",
     "sizeBytes": 44252,
     "updatedAt": "2026-11-14T06:50:01.113Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_45000_2_45341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45341",
     "sizeBytes": 55993,
     "updatedAt": "2026-11-14T06:55:18.593Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_45341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "45341",
     "sizeBytes": 10366,
     "updatedAt": "2026-11-14T17:46:46.224Z"

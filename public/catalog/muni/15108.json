@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "15",
     "fileName": "eStatBdy-2020_15108.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15108",
     "sizeBytes": 944497,
     "updatedAt": "2026-11-19T15:36:08.181Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_1_15108.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15108",
     "sizeBytes": 96098,
     "updatedAt": "2026-11-14T00:28:22.761Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_15000_2_15108.pmtiles",
+    "isMerged": false,
     "municipalityCode": "15108",
     "sizeBytes": 162480,
     "updatedAt": "2026-11-14T00:35:42.880Z"

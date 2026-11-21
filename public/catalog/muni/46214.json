@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "46",
     "fileName": "eStatBdy-2020_46214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46214",
     "sizeBytes": 378763,
     "updatedAt": "2026-11-19T16:42:39.611Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_1_46214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46214",
     "sizeBytes": 34625,
     "updatedAt": "2026-11-14T06:59:25.285Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_46000_2_46214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46214",
     "sizeBytes": 66742,
     "updatedAt": "2026-11-14T07:07:41.770Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_46214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46214",
     "sizeBytes": 20998,
     "updatedAt": "2026-11-14T17:47:40.951Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_skj_46214.pmtiles",
+    "isMerged": false,
     "municipalityCode": "46214",
     "sizeBytes": 43946,
     "updatedAt": "2026-11-14T18:30:28.110Z"

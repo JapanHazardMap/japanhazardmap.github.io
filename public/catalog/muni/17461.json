@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "17",
     "fileName": "eStatBdy-2020_17461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17461",
     "sizeBytes": 561092,
     "updatedAt": "2026-11-19T15:41:32.508Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_1_17461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17461",
     "sizeBytes": 101826,
     "updatedAt": "2026-11-14T00:50:01.598Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_2_17461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17461",
     "sizeBytes": 245867,
     "updatedAt": "2026-11-14T00:53:52.681Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "11",
     "fileName": "eStatBdy-2020_11222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11222",
     "sizeBytes": 653287,
     "updatedAt": "2026-11-19T14:53:01.776Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_11000_1_11222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11222",
     "sizeBytes": 162987,
     "updatedAt": "2026-11-13T23:06:18.819Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_11000_2_11222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11222",
     "sizeBytes": 194912,
     "updatedAt": "2026-11-13T23:18:43.804Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_11222.pmtiles",
+    "isMerged": false,
     "municipalityCode": "11222",
     "sizeBytes": 14245,
     "updatedAt": "2026-11-14T14:41:45.311Z"

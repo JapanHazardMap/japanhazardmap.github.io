@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "26",
     "fileName": "eStatBdy-2020_26367.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26367",
     "sizeBytes": 165762,
     "updatedAt": "2026-11-19T16:03:11.707Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_26000_1_26367.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26367",
     "sizeBytes": 10067,
     "updatedAt": "2026-11-14T02:55:20.007Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_26000_2_26367.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26367",
     "sizeBytes": 49517,
     "updatedAt": "2026-11-14T03:01:55.832Z"
@@ -59,40 +62,9 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_26367.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26367",
     "sizeBytes": 11950,
     "updatedAt": "2026-11-14T15:24:37.377Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_20_25_26_8606040512_20_26367",
-    "name": "[A31a_kansai] A31a_20_25_26_8606040512_20_26367",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/26/A31a_20_25_26_8606040512_20_26367.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "26",
-    "fileName": "A31a_20_25_26_8606040512_20_26367.pmtiles",
-    "municipalityCode": "26367",
-    "sizeBytes": 13541,
-    "updatedAt": "2026-11-15T20:21:35.535Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_20_25_26_8606040514_20_26367",
-    "name": "[A31a_kansai] A31a_20_25_26_8606040514_20_26367",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/26/A31a_20_25_26_8606040514_20_26367.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "26",
-    "fileName": "A31a_20_25_26_8606040514_20_26367.pmtiles",
-    "municipalityCode": "26367",
-    "sizeBytes": 24165,
-    "updatedAt": "2026-11-15T20:21:53.825Z"
   }
 ]

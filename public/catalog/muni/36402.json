@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "36",
     "fileName": "eStatBdy-2020_36402.pmtiles",
+    "isMerged": false,
     "municipalityCode": "36402",
     "sizeBytes": 63090,
     "updatedAt": "2026-11-19T16:23:43.235Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_36000_1_36402.pmtiles",
+    "isMerged": false,
     "municipalityCode": "36402",
     "sizeBytes": 42541,
     "updatedAt": "2026-11-14T05:05:28.393Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_36000_2_36402.pmtiles",
+    "isMerged": false,
     "municipalityCode": "36402",
     "sizeBytes": 61999,
     "updatedAt": "2026-11-14T05:10:04.233Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_36402.pmtiles",
+    "isMerged": false,
     "municipalityCode": "36402",
     "sizeBytes": 16974,
     "updatedAt": "2026-11-14T17:30:47.934Z"

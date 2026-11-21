@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "44",
     "fileName": "eStatBdy-2020_44341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "44341",
     "sizeBytes": 176527,
     "updatedAt": "2026-11-19T16:39:40.374Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_44000_1_44341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "44341",
     "sizeBytes": 31720,
     "updatedAt": "2026-11-14T06:43:25.996Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_44000_2_44341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "44341",
     "sizeBytes": 81184,
     "updatedAt": "2026-11-14T06:47:23.695Z"
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_trg_44341.pmtiles",
+    "isMerged": false,
     "municipalityCode": "44341",
     "sizeBytes": 11036,
     "updatedAt": "2026-11-14T18:33:27.464Z"

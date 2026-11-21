@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "19",
     "fileName": "eStatBdy-2020_19422.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19422",
     "sizeBytes": 162180,
     "updatedAt": "2026-11-19T15:44:14.580Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_1_19422.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19422",
     "sizeBytes": 16839,
     "updatedAt": "2026-11-14T01:04:00.680Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_2_19422.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19422",
     "sizeBytes": 22454,
     "updatedAt": "2026-11-14T01:08:16.985Z"

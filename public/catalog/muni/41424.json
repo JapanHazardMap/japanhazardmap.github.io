@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "41",
     "fileName": "eStatBdy-2020_41424.pmtiles",
+    "isMerged": false,
     "municipalityCode": "41424",
     "sizeBytes": 149522,
     "updatedAt": "2026-11-19T16:33:13.345Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_41000_1_41424.pmtiles",
+    "isMerged": false,
     "municipalityCode": "41424",
     "sizeBytes": 15680,
     "updatedAt": "2026-11-14T06:09:14.482Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_41000_2_41424.pmtiles",
+    "isMerged": false,
     "municipalityCode": "41424",
     "sizeBytes": 23228,
     "updatedAt": "2026-11-14T06:12:59.624Z"

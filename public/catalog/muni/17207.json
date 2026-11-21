@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "17",
     "fileName": "eStatBdy-2020_17207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17207",
     "sizeBytes": 395950,
     "updatedAt": "2026-11-19T15:40:57.273Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_1_17207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17207",
     "sizeBytes": 54069,
     "updatedAt": "2026-11-14T00:48:22.249Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_17000_2_17207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17207",
     "sizeBytes": 62444,
     "updatedAt": "2026-11-14T00:51:57.520Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_17207.pmtiles",
+    "isMerged": false,
     "municipalityCode": "17207",
     "sizeBytes": 15004,
     "updatedAt": "2026-11-14T14:57:46.923Z"

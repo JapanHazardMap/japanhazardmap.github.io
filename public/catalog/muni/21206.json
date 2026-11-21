@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "21",
     "fileName": "eStatBdy-2020_21206.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21206",
     "sizeBytes": 1034193,
     "updatedAt": "2026-11-19T15:49:52.610Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_21000_1_21206.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21206",
     "sizeBytes": 123372,
     "updatedAt": "2026-11-14T01:37:01.704Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_21000_2_21206.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21206",
     "sizeBytes": 148451,
     "updatedAt": "2026-11-14T01:44:44.849Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_21206.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21206",
     "sizeBytes": 21204,
     "updatedAt": "2026-11-14T15:07:17.260Z"

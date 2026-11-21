@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "01",
     "fileName": "eStatBdy-2020_01213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01213",
     "sizeBytes": 1384904,
     "updatedAt": "2026-11-19T13:59:35.397Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_1_01213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01213",
-    "sizeBytes": 94894,
-    "updatedAt": "2026-11-13T20:00:11.232Z"
+    "sizeBytes": 94889,
+    "updatedAt": "2026-11-20T08:24:42.290Z"
   },
   {
     "id": "gsi_raw_pmtiles/_01000_2_01213",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_2_01213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01213",
-    "sizeBytes": 125550,
-    "updatedAt": "2026-11-13T20:32:14.299Z"
+    "sizeBytes": 125545,
+    "updatedAt": "2026-11-20T08:52:14.749Z"
   },
   {
     "id": "gsi_raw_pmtiles/vdpf_trm_01213",
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_trm_01213.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01213",
     "sizeBytes": 43149,
     "updatedAt": "2026-11-14T18:33:56.909Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "01",
     "fileName": "eStatBdy-2020_01431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01431",
     "sizeBytes": 243547,
     "updatedAt": "2026-11-19T14:05:30.838Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_1_01431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01431",
-    "sizeBytes": 21005,
-    "updatedAt": "2026-11-13T20:11:11.415Z"
+    "sizeBytes": 21004,
+    "updatedAt": "2026-11-20T08:34:01.969Z"
   },
   {
     "id": "gsi_raw_pmtiles/_01000_2_01431",
@@ -43,8 +45,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_2_01431.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01431",
-    "sizeBytes": 32294,
-    "updatedAt": "2026-11-13T20:43:10.907Z"
+    "sizeBytes": 32291,
+    "updatedAt": "2026-11-20T09:01:50.261Z"
   }
 ]

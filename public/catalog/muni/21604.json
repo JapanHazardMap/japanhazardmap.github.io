@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "21",
     "fileName": "eStatBdy-2020_21604.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21604",
     "sizeBytes": 503453,
     "updatedAt": "2026-11-19T15:51:38.107Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_21000_1_21604.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21604",
     "sizeBytes": 34820,
     "updatedAt": "2026-11-14T01:42:48.134Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_21000_2_21604.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21604",
     "sizeBytes": 49587,
     "updatedAt": "2026-11-14T01:50:46.487Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_21604.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21604",
     "sizeBytes": 12115,
     "updatedAt": "2026-11-14T15:10:18.681Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_hks_21604.pmtiles",
+    "isMerged": false,
     "municipalityCode": "21604",
     "sizeBytes": 13091,
     "updatedAt": "2026-11-14T18:17:11.725Z"

@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "19",
     "fileName": "eStatBdy-2020_19368.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19368",
     "sizeBytes": 244546,
     "updatedAt": "2026-11-19T15:44:11.545Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_1_19368.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19368",
     "sizeBytes": 128942,
     "updatedAt": "2026-11-14T01:03:43.315Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_19000_2_19368.pmtiles",
+    "isMerged": false,
     "municipalityCode": "19368",
     "sizeBytes": 226618,
     "updatedAt": "2026-11-14T01:07:59.355Z"

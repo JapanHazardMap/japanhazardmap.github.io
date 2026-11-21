@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "01",
     "fileName": "eStatBdy-2020_01346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01346",
     "sizeBytes": 1263335,
     "updatedAt": "2026-11-19T14:03:16.996Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_1_01346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01346",
-    "sizeBytes": 92332,
-    "updatedAt": "2026-11-13T20:05:26.932Z"
+    "sizeBytes": 92328,
+    "updatedAt": "2026-11-20T08:29:39.775Z"
   },
   {
     "id": "gsi_raw_pmtiles/_01000_2_01346",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_01000_2_01346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01346",
-    "sizeBytes": 172473,
-    "updatedAt": "2026-11-13T20:37:45.942Z"
+    "sizeBytes": 172468,
+    "updatedAt": "2026-11-20T08:57:11.058Z"
   },
   {
     "id": "gsi_raw_pmtiles/_20260528_01346",
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_01346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01346",
     "sizeBytes": 22750,
     "updatedAt": "2026-11-14T14:16:47.798Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_hkm_01346.pmtiles",
+    "isMerged": false,
     "municipalityCode": "01346",
     "sizeBytes": 7452,
     "updatedAt": "2026-11-14T18:16:09.044Z"

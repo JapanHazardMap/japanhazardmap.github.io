@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "26",
     "fileName": "eStatBdy-2020_26110.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26110",
     "sizeBytes": 875085,
     "updatedAt": "2026-11-19T16:02:05.738Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_26000_1_26110.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26110",
     "sizeBytes": 44954,
     "updatedAt": "2026-11-14T02:51:24.784Z"
@@ -43,8 +45,26 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_26000_2_26110.pmtiles",
+    "isMerged": false,
     "municipalityCode": "26110",
     "sizeBytes": 68096,
     "updatedAt": "2026-11-14T02:57:58.156Z"
+  },
+  {
+    "id": "ksj_raw_pmtiles_A33/A33_25_25Polygon_26110",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_25Polygon_26110",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles_A33/full/26/A33_25_25Polygon_26110.pmtiles",
+    "repoName": "ksj_raw_pmtiles_A33",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "26",
+    "fileName": "A33_25_25Polygon_26110.pmtiles",
+    "isMerged": false,
+    "municipalityCode": "26110",
+    "sizeBytes": 32367,
+    "updatedAt": "2026-11-20T22:39:37.635Z"
   }
 ]

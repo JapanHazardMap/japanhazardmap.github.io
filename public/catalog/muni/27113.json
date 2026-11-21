@@ -1,5 +1,21 @@
 [
   {
+    "id": "ksj_raw_pmtiles/A33_25_30Polygon",
+    "name": "[土砂災害警戒区域 (A33)] A33_25_30Polygon",
+    "titleJa": "土砂災害警戒区域",
+    "type": "pmtiles",
+    "url": "/ksj_raw_pmtiles/full/27/A33_25_30Polygon.pmtiles",
+    "repoName": "ksj_raw_pmtiles",
+    "pipelineId": "ksj",
+    "datasetId": "A33",
+    "category": "full",
+    "regionCode": "27",
+    "fileName": "A33_25_30Polygon.pmtiles",
+    "isMerged": true,
+    "sizeBytes": 140805877,
+    "updatedAt": "2026-11-21T01:36:10.138Z"
+  },
+  {
     "id": "eStatBdy_raw_pmtiles_chuuhou/eStatBdy-2020_27113",
     "name": "[chuuhou] eStatBdy-2020_27113",
     "titleJa": "chuuhou",
@@ -11,6 +27,7 @@
     "category": "full",
     "regionCode": "27",
     "fileName": "eStatBdy-2020_27113.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27113",
     "sizeBytes": 194713,
     "updatedAt": "2026-11-19T16:04:14.290Z"
@@ -27,9 +44,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_1_27113.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27113",
-    "sizeBytes": 47610,
-    "updatedAt": "2026-11-14T03:04:32.954Z"
+    "sizeBytes": 47607,
+    "updatedAt": "2026-11-21T01:47:41.421Z"
   },
   {
     "id": "gsi_raw_pmtiles/_27000_2_27113",
@@ -43,72 +61,9 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_27000_2_27113.pmtiles",
+    "isMerged": false,
     "municipalityCode": "27113",
-    "sizeBytes": 192581,
-    "updatedAt": "2026-11-14T03:17:47.063Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_10_25_27_8606040047_10_27113",
-    "name": "[A31a_kansai] A31a_10_25_27_8606040047_10_27113",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_10_25_27_8606040047_10_27113.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_10_25_27_8606040047_10_27113.pmtiles",
-    "municipalityCode": "27113",
-    "sizeBytes": 919718,
-    "updatedAt": "2026-11-15T21:30:14.273Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_20_25_27_8606040047_10_27113",
-    "name": "[A31a_kansai] A31a_20_25_27_8606040047_10_27113",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_20_25_27_8606040047_10_27113.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_20_25_27_8606040047_10_27113.pmtiles",
-    "municipalityCode": "27113",
-    "sizeBytes": 466520,
-    "updatedAt": "2026-11-15T22:04:46.669Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_30_25_27_8606040047_10_27113",
-    "name": "[A31a_kansai] A31a_30_25_27_8606040047_10_27113",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_30_25_27_8606040047_10_27113.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_30_25_27_8606040047_10_27113.pmtiles",
-    "municipalityCode": "27113",
-    "sizeBytes": 198130,
-    "updatedAt": "2026-11-15T22:37:25.740Z"
-  },
-  {
-    "id": "ksj_raw_pmtiles_A31a_kansai/A31a_42_25_27_8606040047_10_27113",
-    "name": "[A31a_kansai] A31a_42_25_27_8606040047_10_27113",
-    "titleJa": "A31a_kansai",
-    "type": "pmtiles",
-    "url": "/ksj_raw_pmtiles_A31a_kansai/full/27/A31a_42_25_27_8606040047_10_27113.pmtiles",
-    "repoName": "ksj_raw_pmtiles_A31a_kansai",
-    "pipelineId": "ksj",
-    "datasetId": "A31a_kansai",
-    "category": "full",
-    "regionCode": "27",
-    "fileName": "A31a_42_25_27_8606040047_10_27113.pmtiles",
-    "municipalityCode": "27113",
-    "sizeBytes": 1829,
-    "updatedAt": "2026-11-15T23:12:19.579Z"
+    "sizeBytes": 192578,
+    "updatedAt": "2026-11-21T02:00:37.859Z"
   }
 ]

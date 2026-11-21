@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "04",
     "fileName": "eStatBdy-2020_04208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04208",
     "sizeBytes": 536993,
     "updatedAt": "2026-11-19T14:28:29.280Z"
@@ -27,9 +28,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_1_04208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04208",
-    "sizeBytes": 53026,
-    "updatedAt": "2026-11-13T21:28:37.434Z"
+    "sizeBytes": 53024,
+    "updatedAt": "2026-11-20T09:41:37.216Z"
   },
   {
     "id": "gsi_raw_pmtiles/_04000_2_04208",
@@ -43,9 +45,10 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_04000_2_04208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04208",
-    "sizeBytes": 98677,
-    "updatedAt": "2026-11-13T21:36:43.013Z"
+    "sizeBytes": 98674,
+    "updatedAt": "2026-11-20T09:47:39.764Z"
   },
   {
     "id": "gsi_raw_pmtiles/vdpf_zao_04208",
@@ -59,6 +62,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_zao_04208.pmtiles",
+    "isMerged": false,
     "municipalityCode": "04208",
     "sizeBytes": 8664,
     "updatedAt": "2026-11-14T18:37:26.283Z"

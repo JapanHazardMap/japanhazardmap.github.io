@@ -1,12 +1,222 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-20T07:54:35.391Z",
+  "generatedAt": "2026-11-21T03:04:53.840Z",
   "webSiteRoot": "https://japanhazardmap.github.io",
   "repositoryCount": 9,
-  "totalLayers": 10141,
+  "totalLayers": 7139,
   "muniCatalogBaseUrl": "/catalog/muni",
   "allDatasetsUrl": "/catalog/all-datasets.json",
-  "dictionary": {},
+  "dictionary": {
+    "A33": {
+      "datasetId": "A33",
+      "dataName": {
+        "ja": "土砂災害警戒区域"
+      },
+      "category": "政策区域",
+      "subCategory": "災害・防災",
+      "latestYear": 2025,
+      "fields": {
+        "A33_001": {
+          "ja": "現象の種類",
+          "type": "string"
+        },
+        "A33_002": {
+          "ja": "区域区分",
+          "type": "string"
+        },
+        "A33_003": {
+          "ja": "都道府県コード",
+          "type": "string"
+        },
+        "A33_004": {
+          "ja": "区域番号",
+          "type": "string"
+        },
+        "A33_005": {
+          "ja": "区域名",
+          "type": "string"
+        },
+        "A33_006": {
+          "ja": "所在地",
+          "type": "string"
+        },
+        "A33_007": {
+          "ja": "公示日",
+          "type": "string"
+        },
+        "A33_008": {
+          "ja": "特別警戒未指定フラグ",
+          "type": "string"
+        }
+      },
+      "codeLists": {
+        "phenomenonType": {
+          "description": "現象種別コード",
+          "codes": [
+            {
+              "code": "1",
+              "name": "急傾斜地の崩壊"
+            },
+            {
+              "code": "2",
+              "name": "土石流"
+            },
+            {
+              "code": "3",
+              "name": "地すべり"
+            }
+          ]
+        },
+        "zoneType": {
+          "description": "区域区分コード",
+          "codes": [
+            {
+              "code": "1",
+              "name": "土砂災害警戒区域（イエローゾーン）"
+            },
+            {
+              "code": "2",
+              "name": "土砂災害特別警戒区域（レッドゾーン）"
+            },
+            {
+              "code": "3",
+              "name": "土砂災害警戒区域（指定前）"
+            },
+            {
+              "code": "4",
+              "name": "土砂災害特別警戒区域（指定前）"
+            }
+          ]
+        },
+        "prefectureCode": {
+          "description": "都道府県コード（共通コードリスト）",
+          "ref": "PrefectureCode.json"
+        },
+        "unspecifiedFlag": {
+          "description": "特別警戒区域未指定コード",
+          "codes": [
+            {
+              "code": "0",
+              "name": "特別警戒区域あり"
+            },
+            {
+              "code": "1",
+              "name": "特別警戒区域未指定"
+            }
+          ]
+        }
+      }
+    },
+    "A31a": {
+      "datasetId": "A31a",
+      "dataName": {
+        "ja": "洪水浸水想定区域"
+      },
+      "category": "政策区域",
+      "subCategory": "災害・防災",
+      "latestYear": 2025,
+      "fields": {
+        "A31a_101": {
+          "ja": "河川番号",
+          "type": "string"
+        },
+        "A31a_102": {
+          "ja": "河川名",
+          "type": "string"
+        },
+        "A31a_103": {
+          "ja": "河川管理者番号",
+          "type": "string"
+        },
+        "A31a_104": {
+          "ja": "河川管理者",
+          "type": "string"
+        },
+        "A31a_105": {
+          "ja": "浸水深ランク",
+          "type": "string"
+        },
+        "A31a_201": {
+          "ja": "河川番号",
+          "type": "string"
+        },
+        "A31a_202": {
+          "ja": "河川名",
+          "type": "string"
+        },
+        "A31a_203": {
+          "ja": "河川管理番号",
+          "type": "string"
+        },
+        "A31a_204": {
+          "ja": "河川管理者",
+          "type": "string"
+        },
+        "A31a_205": {
+          "ja": "浸水深ランク",
+          "type": "string"
+        },
+        "A31a_301": {
+          "ja": "河川番号",
+          "type": "string"
+        },
+        "A31a_302": {
+          "ja": "河川名",
+          "type": "string"
+        },
+        "A31a_303": {
+          "ja": "河川管理番号",
+          "type": "string"
+        },
+        "A31a_304": {
+          "ja": "河川管理者",
+          "type": "string"
+        },
+        "A31a_305": {
+          "ja": "浸水継続時間ランク",
+          "type": "string"
+        },
+        "A31a_401": {
+          "ja": "河川番号",
+          "type": "string"
+        },
+        "A31a_402": {
+          "ja": "河川名",
+          "type": "string"
+        },
+        "A31a_403": {
+          "ja": "河川管理番号",
+          "type": "string"
+        },
+        "A31a_404": {
+          "ja": "河川管理者",
+          "type": "string"
+        },
+        "A31a_405": {
+          "ja": "危険区域区分",
+          "type": "string"
+        }
+      },
+      "codeLists": {
+        "administratorType": {
+          "description": "河川管理者コード（作成種別コード）",
+          "reference": "CreatingTypeCd.json"
+        },
+        "depthRank": {
+          "description": "浸水深ランクコード",
+          "reference": "WaterDepthRank6Levels.json"
+        },
+        "durationRank": {
+          "description": "浸水継続時間ランクコード",
+          "reference": "DurationRank.json"
+        },
+        "hazardZone": {
+          "description": "危険区域区分コード",
+          "reference": "HazardousAreaClassificationCode.json"
+        }
+      }
+    }
+  },
   "municipalities": {
     "10201": {
       "c": "10201",
@@ -5754,6 +5964,7 @@
         36.172965
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5770,6 +5981,7 @@
         35.765934
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5786,6 +5998,7 @@
         35.577409
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5802,6 +6015,7 @@
         36.086326
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5818,6 +6032,7 @@
         36.159061
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5834,6 +6049,7 @@
         36.000271
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5850,6 +6066,7 @@
         36.29658
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5866,6 +6083,7 @@
         35.948716
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5882,6 +6100,7 @@
         36.258241
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5898,6 +6117,7 @@
         36.129931
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5914,6 +6134,7 @@
         35.952544
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5930,6 +6151,7 @@
         35.878845
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5946,6 +6168,7 @@
         36.02845
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5962,6 +6185,7 @@
         35.730125
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5978,6 +6202,7 @@
         35.558001
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -5994,6 +6219,7 @@
         35.54785
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -6010,6 +6236,7 @@
         35.642229
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -8109,7 +8336,8 @@
       ],
       "ds": [
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "21381": {
@@ -10148,9 +10376,9 @@
         34.844619
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "24202": {
@@ -10165,6 +10393,7 @@
         35.070492
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10181,6 +10410,7 @@
         34.566545
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10197,6 +10427,7 @@
         34.651498
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10213,6 +10444,7 @@
         35.180941
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10229,6 +10461,7 @@
         34.988333
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10245,9 +10478,9 @@
         34.687511
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "24209": {
@@ -10262,6 +10495,7 @@
         34.119501
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10278,6 +10512,7 @@
         34.953096
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10294,6 +10529,7 @@
         34.552109
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10310,9 +10546,9 @@
         34.040985
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "24214": {
@@ -10327,6 +10563,7 @@
         35.257688
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10343,6 +10580,7 @@
         34.424475
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10359,8 +10597,10 @@
         34.90194
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "24303": {
@@ -10375,6 +10615,7 @@
         35.104722
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10391,6 +10632,7 @@
         35.116421
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10407,6 +10649,7 @@
         35.092965
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10423,6 +10666,7 @@
         35.047576
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10439,6 +10683,7 @@
         35.039133
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10455,6 +10700,7 @@
         34.523586
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10471,6 +10717,7 @@
         34.600981
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10487,6 +10734,7 @@
         34.459565
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10503,6 +10751,7 @@
         34.521796
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10519,6 +10768,7 @@
         34.459003
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10535,6 +10785,7 @@
         34.43519
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10551,6 +10802,7 @@
         34.398576
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10567,6 +10819,7 @@
         34.274355
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10583,6 +10836,7 @@
         33.894556
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general"
       ]
@@ -10599,9 +10853,9 @@
         33.830395
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "25201": {
@@ -10616,9 +10870,10 @@
         35.284819
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25202": {
@@ -10633,9 +10888,10 @@
         35.356009
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25203": {
@@ -10650,9 +10906,10 @@
         35.703744
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25204": {
@@ -10667,9 +10924,10 @@
         35.260875
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25206": {
@@ -10684,9 +10942,10 @@
         35.088122
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25207": {
@@ -10701,9 +10960,9 @@
         35.147213
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "25208": {
@@ -10718,9 +10977,10 @@
         35.050883
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25209": {
@@ -10735,9 +10995,10 @@
         35.031058
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25210": {
@@ -10752,9 +11013,10 @@
         35.190207
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25211": {
@@ -10769,9 +11031,10 @@
         35.057208
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25212": {
@@ -10786,9 +11049,10 @@
         35.540652
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25213": {
@@ -10803,9 +11067,10 @@
         35.251843
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25214": {
@@ -10820,9 +11085,10 @@
         35.559872
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25383": {
@@ -10837,9 +11103,10 @@
         35.069282
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25384": {
@@ -10854,9 +11121,10 @@
         35.097301
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25425": {
@@ -10871,9 +11139,10 @@
         35.19919
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25441": {
@@ -10888,9 +11157,9 @@
         35.218344
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "25442": {
@@ -10905,9 +11174,10 @@
         35.230118
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "25443": {
@@ -10922,9 +11192,10 @@
         35.287336
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "26101": {
@@ -10940,8 +11211,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26102": {
@@ -10957,8 +11227,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26103": {
@@ -10975,7 +11244,7 @@
       "ds": [
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "26104": {
@@ -10991,8 +11260,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26105": {
@@ -11008,8 +11276,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26106": {
@@ -11025,8 +11292,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26107": {
@@ -11042,8 +11308,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26108": {
@@ -11059,8 +11324,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26109": {
@@ -11076,8 +11340,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26110": {
@@ -11093,7 +11356,8 @@
       ],
       "ds": [
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "26111": {
@@ -11109,8 +11373,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26201": {
@@ -11126,8 +11389,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26202": {
@@ -11143,8 +11405,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26203": {
@@ -11160,8 +11421,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26204": {
@@ -11178,7 +11438,7 @@
       "ds": [
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "26205": {
@@ -11194,8 +11454,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26206": {
@@ -11211,8 +11470,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26207": {
@@ -11228,8 +11486,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26208": {
@@ -11245,8 +11502,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26209": {
@@ -11262,8 +11518,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26210": {
@@ -11279,8 +11534,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26211": {
@@ -11296,8 +11550,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26212": {
@@ -11313,8 +11566,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26213": {
@@ -11330,8 +11582,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26214": {
@@ -11347,8 +11598,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26303": {
@@ -11364,8 +11614,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26322": {
@@ -11381,8 +11630,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26343": {
@@ -11398,8 +11646,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26344": {
@@ -11415,8 +11662,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26364": {
@@ -11432,8 +11678,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26365": {
@@ -11449,8 +11694,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26366": {
@@ -11466,8 +11710,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26367": {
@@ -11483,8 +11726,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26407": {
@@ -11500,8 +11742,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26463": {
@@ -11517,8 +11758,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "26465": {
@@ -11534,8 +11774,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27102": {
@@ -11550,9 +11789,9 @@
         34.731138
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27103": {
@@ -11567,9 +11806,9 @@
         34.706785
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27104": {
@@ -11584,9 +11823,9 @@
         34.699704
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27106": {
@@ -11601,6 +11840,7 @@
         34.692811
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -11617,9 +11857,9 @@
         34.677568
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27108": {
@@ -11634,6 +11874,7 @@
         34.66803
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -11650,9 +11891,9 @@
         34.675836
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27111": {
@@ -11667,9 +11908,9 @@
         34.670017
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27113": {
@@ -11684,9 +11925,9 @@
         34.729129
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27114": {
@@ -11701,9 +11942,9 @@
         34.768734
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27115": {
@@ -11718,9 +11959,9 @@
         34.683675
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27116": {
@@ -11735,9 +11976,9 @@
         34.665635
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27117": {
@@ -11752,9 +11993,9 @@
         34.745288
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27118": {
@@ -11769,9 +12010,9 @@
         34.715448
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27119": {
@@ -11786,6 +12027,7 @@
         34.648393
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -11802,6 +12044,7 @@
         34.624786
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -11818,9 +12061,9 @@
         34.644546
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27122": {
@@ -11835,9 +12078,9 @@
         34.657369
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27123": {
@@ -11852,9 +12095,9 @@
         34.751268
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27124": {
@@ -11869,9 +12112,9 @@
         34.723386
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27125": {
@@ -11886,6 +12129,7 @@
         34.645891
       ],
       "ds": [
+        "A33",
         "chuuhou",
         "general"
       ]
@@ -11902,9 +12146,9 @@
         34.644333
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27127": {
@@ -11919,9 +12163,9 @@
         34.7207
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27128": {
@@ -11936,9 +12180,9 @@
         34.69536
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27141": {
@@ -11953,9 +12197,9 @@
         34.608513
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27142": {
@@ -11970,9 +12214,9 @@
         34.550244
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27143": {
@@ -11987,9 +12231,9 @@
         34.559331
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27144": {
@@ -12004,9 +12248,9 @@
         34.6021
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27145": {
@@ -12021,9 +12265,9 @@
         34.514302
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27146": {
@@ -12038,9 +12282,9 @@
         34.594023
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27147": {
@@ -12055,9 +12299,9 @@
         34.560027
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27202": {
@@ -12072,9 +12316,9 @@
         34.501737
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27203": {
@@ -12089,9 +12333,9 @@
         34.824824
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27204": {
@@ -12106,9 +12350,9 @@
         34.87797
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27205": {
@@ -12123,9 +12367,9 @@
         34.831049
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27206": {
@@ -12140,9 +12384,9 @@
         34.532434
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27207": {
@@ -12157,9 +12401,9 @@
         34.976828
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27208": {
@@ -12174,9 +12418,9 @@
         34.471437
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27209": {
@@ -12191,9 +12435,9 @@
         34.76776
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27210": {
@@ -12208,9 +12452,9 @@
         34.881238
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27211": {
@@ -12225,9 +12469,9 @@
         34.928874
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27212": {
@@ -12242,9 +12486,9 @@
         34.650614
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27213": {
@@ -12259,9 +12503,9 @@
         34.455366
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27214": {
@@ -12276,9 +12520,9 @@
         34.53242
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27215": {
@@ -12293,9 +12537,9 @@
         34.791608
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27216": {
@@ -12310,9 +12554,9 @@
         34.479838
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27217": {
@@ -12327,9 +12571,9 @@
         34.59923
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27218": {
@@ -12344,9 +12588,9 @@
         34.732249
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27219": {
@@ -12361,9 +12605,9 @@
         34.516794
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27220": {
@@ -12378,9 +12622,9 @@
         34.910458
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27221": {
@@ -12395,9 +12639,9 @@
         34.606843
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27222": {
@@ -12412,9 +12656,9 @@
         34.582112
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27223": {
@@ -12429,9 +12673,9 @@
         34.749806
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27224": {
@@ -12446,9 +12690,9 @@
         34.798854
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27225": {
@@ -12463,9 +12707,9 @@
         34.548003
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27226": {
@@ -12480,9 +12724,9 @@
         34.589588
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27227": {
@@ -12497,9 +12741,9 @@
         34.704234
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27228": {
@@ -12514,9 +12758,9 @@
         34.438734
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27229": {
@@ -12531,9 +12775,9 @@
         34.750301
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27230": {
@@ -12548,9 +12792,9 @@
         34.803405
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27231": {
@@ -12565,9 +12809,9 @@
         34.529324
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27232": {
@@ -12582,9 +12826,9 @@
         34.376992
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27301": {
@@ -12599,9 +12843,9 @@
         34.935527
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27321": {
@@ -12616,9 +12860,9 @@
         34.946757
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27322": {
@@ -12633,9 +12877,9 @@
         35.051393
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27341": {
@@ -12650,9 +12894,9 @@
         34.517305
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27361": {
@@ -12667,9 +12911,9 @@
         34.421092
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27362": {
@@ -12684,9 +12928,9 @@
         34.446167
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27366": {
@@ -12701,9 +12945,9 @@
         34.340693
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27381": {
@@ -12718,9 +12962,9 @@
         34.541368
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27382": {
@@ -12735,9 +12979,9 @@
         34.514918
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "27383": {
@@ -12752,9 +12996,9 @@
         34.476383
       ],
       "ds": [
+        "A33",
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28101": {
@@ -12770,8 +13014,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28102": {
@@ -12787,8 +13030,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28105": {
@@ -12804,8 +13046,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28106": {
@@ -12821,8 +13062,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28107": {
@@ -12838,8 +13078,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28108": {
@@ -12855,8 +13094,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28109": {
@@ -12872,8 +13110,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28110": {
@@ -12889,8 +13126,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28111": {
@@ -12906,8 +13142,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28201": {
@@ -12923,8 +13158,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28202": {
@@ -12940,8 +13174,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28203": {
@@ -12957,8 +13190,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28204": {
@@ -12974,8 +13206,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28205": {
@@ -12991,8 +13222,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28206": {
@@ -13008,8 +13238,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28207": {
@@ -13025,8 +13254,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28208": {
@@ -13042,8 +13270,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28209": {
@@ -13059,8 +13286,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28210": {
@@ -13076,8 +13302,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28212": {
@@ -13093,8 +13318,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28213": {
@@ -13110,8 +13334,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28214": {
@@ -13127,8 +13350,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28215": {
@@ -13144,8 +13366,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28216": {
@@ -13161,8 +13382,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28217": {
@@ -13178,8 +13398,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28218": {
@@ -13195,8 +13414,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28219": {
@@ -13212,8 +13430,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28220": {
@@ -13229,8 +13446,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28221": {
@@ -13246,8 +13462,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28222": {
@@ -13263,8 +13478,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28223": {
@@ -13280,8 +13494,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28224": {
@@ -13297,8 +13510,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28225": {
@@ -13314,8 +13526,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28226": {
@@ -13331,8 +13542,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28227": {
@@ -13348,8 +13558,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28228": {
@@ -13365,8 +13574,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28229": {
@@ -13382,8 +13590,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28301": {
@@ -13399,8 +13606,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28365": {
@@ -13416,8 +13622,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28381": {
@@ -13433,8 +13638,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28382": {
@@ -13450,8 +13654,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28442": {
@@ -13467,8 +13670,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28443": {
@@ -13484,8 +13686,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28446": {
@@ -13501,8 +13702,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28464": {
@@ -13518,8 +13718,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28481": {
@@ -13535,8 +13734,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28501": {
@@ -13552,8 +13750,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28585": {
@@ -13569,8 +13766,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "28586": {
@@ -13586,8 +13782,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29201": {
@@ -13603,8 +13798,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29202": {
@@ -13620,8 +13814,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29203": {
@@ -13637,8 +13830,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29204": {
@@ -13654,8 +13846,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29205": {
@@ -13671,8 +13862,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29206": {
@@ -13688,8 +13878,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29207": {
@@ -13706,7 +13895,7 @@
       "ds": [
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "29208": {
@@ -13722,8 +13911,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29209": {
@@ -13739,8 +13927,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29210": {
@@ -13756,8 +13943,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29211": {
@@ -13773,8 +13959,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29212": {
@@ -13790,8 +13975,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29322": {
@@ -13807,8 +13991,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29342": {
@@ -13824,8 +14007,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29343": {
@@ -13841,8 +14023,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29344": {
@@ -13858,8 +14039,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29345": {
@@ -13875,8 +14055,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29361": {
@@ -13892,8 +14071,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29362": {
@@ -13909,8 +14087,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29363": {
@@ -13926,8 +14103,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29385": {
@@ -13943,8 +14119,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29386": {
@@ -13960,8 +14135,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29401": {
@@ -13977,8 +14151,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29402": {
@@ -13994,8 +14167,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29424": {
@@ -14011,8 +14183,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29425": {
@@ -14028,8 +14199,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29426": {
@@ -14045,8 +14215,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29427": {
@@ -14062,8 +14231,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29441": {
@@ -14079,8 +14247,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29442": {
@@ -14096,8 +14263,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29443": {
@@ -14113,8 +14279,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29444": {
@@ -14130,8 +14295,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29446": {
@@ -14147,8 +14311,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29447": {
@@ -14164,8 +14327,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29449": {
@@ -14181,8 +14343,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29450": {
@@ -14198,8 +14359,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29451": {
@@ -14215,8 +14375,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29452": {
@@ -14232,8 +14391,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "29453": {
@@ -14249,8 +14407,7 @@
       ],
       "ds": [
         "chuuhou",
-        "general",
-        "A31a_kansai"
+        "general"
       ]
     },
     "30201": {
@@ -14265,9 +14422,10 @@
         34.315697
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30202": {
@@ -14282,9 +14440,10 @@
         34.203254
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30203": {
@@ -14299,9 +14458,10 @@
         34.384597
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30204": {
@@ -14316,9 +14476,10 @@
         34.119284
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30205": {
@@ -14333,9 +14494,10 @@
         33.95282
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30206": {
@@ -14350,9 +14512,10 @@
         34.068695
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30207": {
@@ -14367,9 +14530,10 @@
         33.922055
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30208": {
@@ -14384,9 +14548,10 @@
         34.348778
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30209": {
@@ -14401,8 +14566,10 @@
         34.319236
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "30304": {
@@ -14417,9 +14584,10 @@
         34.201985
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30341": {
@@ -14434,9 +14602,10 @@
         34.363023
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30343": {
@@ -14451,8 +14620,10 @@
         34.303999
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "30344": {
@@ -14467,9 +14638,10 @@
         34.278186
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30361": {
@@ -14484,9 +14656,10 @@
         34.063423
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30362": {
@@ -14501,9 +14674,10 @@
         34.032041
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30366": {
@@ -14518,9 +14692,10 @@
         34.154718
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30381": {
@@ -14535,9 +14710,10 @@
         33.916556
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30382": {
@@ -14552,9 +14728,10 @@
         33.984041
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30383": {
@@ -14569,8 +14746,10 @@
         34.007946
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "30390": {
@@ -14585,9 +14764,10 @@
         33.919167
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30391": {
@@ -14602,9 +14782,10 @@
         33.888346
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30392": {
@@ -14619,9 +14800,10 @@
         34.043111
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30401": {
@@ -14636,9 +14818,10 @@
         33.704829
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30404": {
@@ -14653,9 +14836,10 @@
         33.768374
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30406": {
@@ -14670,9 +14854,10 @@
         33.636095
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30421": {
@@ -14687,9 +14872,10 @@
         33.723108
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30422": {
@@ -14704,8 +14890,10 @@
         33.618535
       ],
       "ds": [
+        "A31a",
         "chuuhou",
-        "general"
+        "general",
+        "A33"
       ]
     },
     "30424": {
@@ -14720,9 +14908,10 @@
         33.728232
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30427": {
@@ -14737,9 +14926,10 @@
         34.00989
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "30428": {
@@ -14754,9 +14944,10 @@
         33.587602
       ],
       "ds": [
+        "A31a",
         "chuuhou",
         "general",
-        "A31a_kansai"
+        "A33"
       ]
     },
     "31201": {
@@ -30741,16 +30932,16 @@
       "mountPath": "/gsi_raw_pmtiles"
     },
     {
+      "repoName": "ksj_raw_pmtiles",
+      "pipelineId": "ksj",
+      "datasetId": "general",
+      "mountPath": "/ksj_raw_pmtiles"
+    },
+    {
       "repoName": "ksj_raw_pmtiles_A31a",
       "pipelineId": "ksj",
       "datasetId": "A31a",
       "mountPath": "/ksj_raw_pmtiles_A31a"
-    },
-    {
-      "repoName": "ksj_raw_pmtiles_A31a_kansai",
-      "pipelineId": "ksj",
-      "datasetId": "A31a_kansai",
-      "mountPath": "/ksj_raw_pmtiles_A31a_kansai"
     },
     {
       "repoName": "ksj_raw_pmtiles_A33",

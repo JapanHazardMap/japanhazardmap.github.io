@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "47",
     "fileName": "eStatBdy-2020_47350.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47350",
     "sizeBytes": 74807,
     "updatedAt": "2026-11-19T16:45:38.683Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_47000_1_47350.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47350",
     "sizeBytes": 24789,
     "updatedAt": "2026-11-14T07:18:59.409Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_47000_2_47350.pmtiles",
+    "isMerged": false,
     "municipalityCode": "47350",
     "sizeBytes": 65281,
     "updatedAt": "2026-11-14T07:25:07.097Z"

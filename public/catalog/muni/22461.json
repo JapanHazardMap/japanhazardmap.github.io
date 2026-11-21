@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "22",
     "fileName": "eStatBdy-2020_22461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "22461",
     "sizeBytes": 478001,
     "updatedAt": "2026-11-19T15:54:17.289Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_22000_1_22461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "22461",
     "sizeBytes": 28578,
     "updatedAt": "2026-11-14T01:57:48.891Z"
@@ -43,6 +45,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_22000_2_22461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "22461",
     "sizeBytes": 39303,
     "updatedAt": "2026-11-14T02:05:11.028Z"
@@ -59,6 +62,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_22461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "22461",
     "sizeBytes": 11716,
     "updatedAt": "2026-11-14T15:13:21.823Z"
@@ -75,6 +79,7 @@
     "category": "VolcanicEvacuationRelatedFacilities",
     "regionCode": "full",
     "fileName": "vdpf_fji_22461.pmtiles",
+    "isMerged": false,
     "municipalityCode": "22461",
     "sizeBytes": 19254,
     "updatedAt": "2026-11-14T18:13:57.176Z"

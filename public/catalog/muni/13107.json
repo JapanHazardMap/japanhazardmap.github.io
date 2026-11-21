@@ -11,6 +11,7 @@
     "category": "full",
     "regionCode": "13",
     "fileName": "eStatBdy-2020_13107.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13107",
     "sizeBytes": 262033,
     "updatedAt": "2026-11-19T15:31:28.308Z"
@@ -27,6 +28,7 @@
     "category": "DesignatedEvacuationSitesandShelters",
     "regionCode": "full",
     "fileName": "_13000_1_13107.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13107",
     "sizeBytes": 50919,
     "updatedAt": "2026-11-13T23:48:57.230Z"
@@ -43,6 +45,7 @@
     "category": "NaturalDisasterMonument",
     "regionCode": "full",
     "fileName": "_20260528_13107.pmtiles",
+    "isMerged": false,
     "municipalityCode": "13107",
     "sizeBytes": 34401,
     "updatedAt": "2026-11-14T14:47:29.057Z"
