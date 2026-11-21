@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>getJST (ESM) 動作テスト</title>
+  </head>
+  <body>
+    <pre id="output">同期中...</pre>
+
+    <script type="module">
+      // ビルド前の元ファイル、または ESM 版のビルドファイルを直接 import
+      // ※ローカルで試す場合は相対パス（例: './Runtime/core/lib/getJST.js'）に変更してください
+      import {
+        syncJST,
+        getClockOffset,
+        getJSTISOString,
+        getJSTCptTs,
+        getJSTDateMillSec,
+      } from 'https://japanhazardmap.github.io/lib/getJST.js?v=1.0.1';
+
+      // 1. サーバーと時刻同期（type="module" 内はトップレベル await が使える）
+      await syncJST();
+
+      // 2. 同期結果と現在時刻を取得
+      const offset = getClockOffset();
+      const iso = getJSTISOString();
+      const compact = getJSTCptTs();
+      const dateMs = getJSTDateMillSec();
+
+      document.getElementById('output').textContent = JSON.stringify(
+        {
+          offset,
+          iso,
+          compact,
+          dateMs,
+        },
+        null,
+        2,
+      );
+    </script>
+  </body>
+</html>
